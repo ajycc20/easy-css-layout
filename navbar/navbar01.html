@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Nav Bar 01</title>
+  <style>
+  body {
+    margin: 0;
+    padding: 0;
+    background: #34495e;
+    font-family: sans-serif;
+  }
+  .main-container {
+    width: 100%;
+    height: 100vh;
+  }
+  ul {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    border: 1px solid #2980b9;
+    background: #000;
+    overflow: hidden;
+    box-shadow: 0 0 0 5px #333;
+    border-radius: 30px;
+    margin: 0;
+    padding: 0;
+  }
+  ul li {
+    list-style: none;
+    width: 150px;
+  }
+  ul li.active {
+    background: #fff;
+  }
+  ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    transition: .5s;
+  }
+  ul li.active a {
+    color: #222222;
+  }
+  .slide {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    background: #fff;
+    z-index: -1;
+    transition: .5s;
+    opacity: 0;
+  }
+  ul li:nth-child(1).active ~ .slide {
+    left: 0;
+    opacity: 1;
+  }
+  ul li:nth-child(2).active ~ .slide {
+    left: 150px;
+    opacity: 1;
+  }
+  ul li:nth-child(3).active ~ .slide {
+    left: 300px;
+    opacity: 1;
+  }
+  ul li:nth-child(4).active ~ .slide {
+    left: 450px;
+    opacity: 1;
+  }
+  ul li:nth-child(5).active ~ .slide {
+    left: 600px;
+    opacity: 1;
+  }
+  </style>
+</head>
+<body>
+  <div class="main-container">
+    <ul>
+      <li><a href="#">Link1</a></li>
+      <li><a href="#">Link2</a></li>
+      <li><a href="#">Link3</a></li>
+      <li><a href="#">Link4</a></li>
+      <li><a href="#">Link5</a></li>
+      <li class="slide"></li>
+    </ul>
+  </div>
+  <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(() => {
+      $('li').on('click', function() {
+        $(this).siblings().removeClass('active')
+        $(this).addClass('active')
+      })
+    })
+  </script>
+</body>
+</html>
