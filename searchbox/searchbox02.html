@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Search Box 02</title>
+  <style>
+  body {
+    margin: 0;
+    padding: 0;
+    background: #2ecc71;
+  }
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .input {
+    width: 60px;
+    height: 60px;
+    background: none;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-sizing: border-box;
+    outline: none;
+    transition: width .5s ease-in-out,
+                border-radius .5s ease-in-out,
+                padding .3s;
+    transition-delay: .5s;
+    color: #fff;
+    font-size: 20px;
+    padding: 5px 45px 5px 10px;
+  }
+  .clicked {
+    width: 400px;
+    border-radius: 0;
+  }
+  .btn {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  .btn::before {
+    content: '';
+    width: 3px;
+    height: 25px;
+    background: #fff;
+    position: absolute;
+    transform: rotate(-45deg);
+    bottom: -16px;
+    right: -6px;
+    transition: .5s;
+  }
+  .closed::before,.closed::after {
+    content: '';
+    width: 3px;
+    height: 34px;
+    background: #fff;
+    position: absolute;
+    bottom: 12px;
+    right: 28px;
+    transition: .5s;
+  }
+  .closed::before {
+    transform: rotate(-45deg);
+  }
+  .closed::after {
+    transform: rotate(45deg);
+  }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="search-box">
+      <input type="text" class="input">
+      <button class="btn"></button>
+    </div>
+  </div>
+  <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+    $('.btn').on('click', function() {
+      $('.input').toggleClass('clicked').focus()
+      $('.btn').toggleClass('closed')
+    })
+  </script>
+</body>
+</html>
