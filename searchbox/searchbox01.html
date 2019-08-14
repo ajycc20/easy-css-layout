@@ -51,14 +51,32 @@
     transition: .5s;
     width: 0;
   }
+  .search.icon {
+    color: #ff0000;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border: 2px solid currentColor;
+    border-radius: 100%;
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+  }
+  .search.icon:before {
+    content: '';
+    position: absolute;
+    top: 12px;
+    left: 5px;
+    height: 8px;
+    width: 2px;
+    background-color: currentColor;
+  }
   </style>
-  <script src="https://use.fontawesome.com/d6f34feed9.js"></script>
 </head>
 <body>
 <div class="search-box">
   <input type="text" class="search-input" placeholder="Just for search">
   <a href="#" class="btn">
-    <i class="fa fa-search" aria-hidden="true"></i>
+      <div class="search icon"></div>
   </a>
 </div>  
 </body>
