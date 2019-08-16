@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pagination 02</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #f39c12;
+    }
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      margin: 0;
+      padding: 0;
+    }
+    ul {
+      display: flex;
+      margin: 0;
+      padding: 0;
+    }
+    ul li {
+      list-style: none;
+      width: 80px;
+      height: 80px;
+      background: #2c3e50;
+      margin: 0 10px;
+      border-radius: 50%;
+      transition: .5s;
+    }
+    ul li:hover {
+      background: #3498db;
+    }
+    ul li span {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      transition: .5s;
+    }
+    ul li.next span {
+      top: 50%;
+      right: 20%;
+      border-bottom: 4px solid #fff;
+      border-right: 4px solid #fff;
+      transform: translateY(-50%) rotate(-45deg);
+    }
+    ul li.next:hover span {
+      right: 16%;
+    }
+    ul li.next span::before {
+      content: '';
+      position: absolute;
+      width: 38px;
+      height: 4px;
+      background: #fff;
+      transform: rotate(45deg) translate(2px, 26px) scale(0);
+      transform-origin: right;
+      transition: .5s;
+    }
+    ul li.next:hover span::before {
+      transform: rotate(45deg) translate(2px, 26px) scale(1);
+      transform-origin: right;
+    }
+    ul li.prev span {
+      top: 50%;
+      left: 20%;
+      border-top: 4px solid #fff;
+      border-left: 4px solid #fff;
+      transform: translateY(-50%) rotate(-45deg);
+    }
+    ul li.prev:hover span {
+      left: 16%;
+    }
+    ul li.prev span::before {
+      content: '';
+      position: absolute;
+      width: 38px;
+      height: 4px;
+      background: #fff;
+      transform: rotate(45deg) translate(-3px, -1px) scale(0);
+      transform-origin: left;
+      transition: .5s;
+    }
+    ul li.prev:hover span::before {
+      transform: rotate(45deg) translate(-3px, -1px) scale(1);
+      transform-origin: left;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <ul>
+      <li class="prev"><span></span></li>
+      <li class="next"><span></span></li>
+    </ul>
+  </div>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pagination 01</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #f39c12;
+      font-family: sans-serif;
+    }
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    ul {
+      display: flex;
+      margin: 0;
+      padding: 0;
+      border: 1px solid #343434;
+    }
+    ul li {
+      list-style: none;
+    }
+    ul li a {
+      text-decoration: none;
+      position: relative;
+      display: block;
+      width: 100px;
+      height: 40px;
+      text-align: center;
+      line-height: 40px;
+      color: #343434;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      transition: .5s;
+      overflow: hidden;
+    }
+    ul li a:hover {
+      color: #ecf0f1;
+      font-size: 20px;
+    }
+    ul li a::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: #000;
+      z-index: -1;
+      transition: .5s;
+    }
+    ul li:nth-child(odd) a::before {
+      right: -100%;
+    }
+    ul li:nth-child(even) a::before {
+      left: -100%;
+    }
+    ul li:nth-child(odd):hover a::before {
+      right: 0;
+    }
+    ul li:nth-child(even):hover a::before {
+      left: 0;
+    }
+    ul li span {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      transition: .5s;
+    }
+    ul li:nth-child(even) span {
+      top: 50%;
+      right: 10%;
+      border-bottom: 1px solid #343434;
+      border-right: 1px solid #343434;
+      transform: translateY(-50%) rotate(-45deg);
+    }
+    ul li:nth-child(even):hover span {
+      right: 6%;
+      border-bottom: 2px solid #ecf0f1;
+      border-right: 2px solid #ecf0f1;
+    }
+    ul li:nth-child(even) span::before {
+      content: '';
+      position: absolute;
+      width: 20px;
+      height: 2px;
+      background: #343434;
+      transform: rotate(45deg) translate(7px, 21px) scale(0);
+      transform-origin: right;
+      transition: .5s;
+    }
+    ul li:nth-child(even):hover span::before {
+      transform: rotate(45deg) translate(7px, 21px) scale(1);
+      transform-origin: right;
+      background: #ecf0f1;
+    }
+    ul li:nth-child(odd) span {
+      top: 50%;
+      left: 10%;
+      border-top: 1px solid #343434;
+      border-left: 1px solid #343434;
+      transform: translateY(-50%) rotate(-45deg);
+    }
+    ul li:nth-child(odd):hover span {
+      left: 6%;
+      border-top: 2px solid #ecf0f1;
+      border-left: 2px solid #ecf0f1;
+    }
+    ul li:nth-child(odd) span::before {
+      content: '';
+      position: absolute;
+      width: 20px;
+      height: 2px;
+      background: #343434;
+      transform: rotate(45deg) translate(-9px, 6px) scale(0);
+      transform-origin: left;
+      transition: .5s;
+    }
+    ul li:nth-child(odd):hover span::before {
+      transform: rotate(45deg) translate(-9px, 6px) scale(1);
+      transform-origin: left;
+      background: #ecf0f1;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <ul>
+      <li><a href="#"><span></span>&nbsp;&nbsp;Prev</a></li>
+      <li><a href="#">Next&nbsp;&nbsp;<span></span></a></li>
+    </ul>
+  </div>
+</body>
+</html>

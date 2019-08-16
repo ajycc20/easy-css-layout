@@ -1,8 +1,9 @@
 - [easy-css-layout](#easy-css-layout)
   - [Prerequisite](#prerequisite)
-  - [NAVBAR](#navbar)
-  - [SEARCHBOX](#searchbox)
-  - [BUTTON](#button)
+  - [NavBar](#navbar)
+  - [SearchBox](#searchbox)
+  - [Button](#button)
+  - [Pagination](#pagination)
 
 easy-css-layout
 ===============
@@ -17,7 +18,7 @@ Just for practice & backups
 
 ----------------
 
-## NAVBAR
+## NavBar
 
 |Name|Source|Demo|Preview|
 |:---:|:---:|:---:|:---:|
@@ -26,7 +27,7 @@ Just for practice & backups
 
 -------------------
 
-## SEARCHBOX
+## SearchBox
 
 |Name|Source|Demo|Preview|
 |:---:|:---:|:---:|:---:|
@@ -35,10 +36,19 @@ Just for practice & backups
 
 ---------------------
 
-## BUTTON
+## Button
 
 |Name|Source|Demo|Preview|
 |:---:|:---:|:---:|:---:|
 |button01|[button01](https://github.com/ajycc20/easy-css-layout/blob/master/button/button01.html)|[Button01](https://ajycc20.github.io/easy-css-layout/button/button01.html)|![button01.jpg](https://img2.ajycc20.xyz/images/2019/08/13/b1r3UulwdQHwuobA.jpg)|
 |button02|[button02](https://github.com/ajycc20/easy-css-layout/blob/master/button/button02.html)|[Button02](https://ajycc20.github.io/easy-css-layout/button/button02.html)|![button02.jpg](https://img2.ajycc20.xyz/images/2019/08/15/rCbp2jdUwSK7v194.jpg)|
 |button03|[button03](https://github.com/ajycc20/easy-css-layout/blob/master/button/button03.html)|[Button03](https://ajycc20.github.io/easy-css-layout/button/button03.html)|![button03.jpg](https://img2.ajycc20.xyz/images/2019/08/15/Bum6U432miq5Kwdo.jpg)|
+
+----------------------
+
+## Pagination
+
+|Name|Source|Demo|Preview|
+|:---:|:---:|:---:|:---:|
+|pagination01|[pagination01](https://github.com/ajycc20/easy-css-layout/blob/master/pagination/pagination01.html)|[Pagination01](https://ajycc20.github.io/easy-css-layout/pagination/pagination01.html)|![pagination01.jpg](https://img2.ajycc20.xyz/images/2019/08/16/r4z2le2j5ZpTHSLu.jpg)|
+|pagination02|[pagination02](https://github.com/ajycc20/easy-css-layout/blob/master/pagination/pagination02.html)|[Pagination02](https://ajycc20.github.io/easy-css-layout/pagination/pagination02.html)|![pagination02.jpg](https://img2.ajycc20.xyz/images/2019/08/16/OpYAEmsXsgftWLh4.jpg)|
