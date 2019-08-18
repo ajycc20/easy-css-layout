@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pagination 03</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #34495e;
+    }
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    ul {
+      display: flex;
+    }
+    ul li {
+      margin: 15px;
+      list-style: none;
+      border: 1px solid #2980b9;
+      padding: 5px 12px;
+      box-shadow: 0 0 10px #95a5a6;
+      cursor: pointer;
+    }
+    ul li:hover {
+      color: #fff;
+      text-shadow: 0 0 5px #f1c40f,
+                  0 0 10px #f1c40f,
+                  0 0 25px #f1c40f,
+                  0 0 25px #f1c40f,
+                  0 0 25px #f1c40f,
+                  0 0 25px #f1c40f,
+                  0 0 25px #f1c40f,
+                  0 0 25px #f1c40f;
+      box-shadow: inset 0 0 10px 5px #2c3e50,
+      0 0 10px 5px #95a5a6;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <ul>
+      <li><span>&lt;</span></li>
+      <li><span>1</span></li>
+      <li><span>2</span></li>
+      <li><span>3</span></li>
+      <li><span>4</span></li>
+      <li><span>5</span></li>
+      <li><span>&gt;</span></li>
+    </ul>
+  </div>
+</body>
+</html>

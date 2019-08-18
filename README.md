@@ -4,6 +4,7 @@
   - [SearchBox](#searchbox)
   - [Button](#button)
   - [Pagination](#pagination)
+  - [Icon](#icon)
 
 easy-css-layout
 ===============
@@ -52,3 +53,12 @@ Just for practice & backups
 |:---:|:---:|:---:|:---:|
 |pagination01|[pagination01](https://github.com/ajycc20/easy-css-layout/blob/master/pagination/pagination01.html)|[Pagination01](https://ajycc20.github.io/easy-css-layout/pagination/pagination01.html)|![pagination01.jpg](https://img2.ajycc20.xyz/images/2019/08/16/r4z2le2j5ZpTHSLu.jpg)|
 |pagination02|[pagination02](https://github.com/ajycc20/easy-css-layout/blob/master/pagination/pagination02.html)|[Pagination02](https://ajycc20.github.io/easy-css-layout/pagination/pagination02.html)|![pagination02.jpg](https://img2.ajycc20.xyz/images/2019/08/16/OpYAEmsXsgftWLh4.jpg)|
+|pagination03|[pagination03](https://github.com/ajycc20/easy-css-layout/blob/master/pagination/pagination03.html)|[Pagination03](https://ajycc20.github.io/easy-css-layout/pagination/pagination03.html)|![pagination03.jpg](https://img2.ajycc20.xyz/images/2019/08/18/RgfnenAPXHj4BUcA.jpg)|
+
+----------------------
+
+## Icon
+
+|Name|Source|Demo|Preview|
+|:---:|:---:|:---:|:---:|
+|Arrow|[arrow](https://github.com/ajycc20/easy-css-layout/blob/master/icon/arrow.html)|[Arrow](https://ajycc20.github.io/easy-css-layout/icon/arrow.html)|![arrow.jpg](https://img2.ajycc20.xyz/images/2019/08/18/oFYcjPQlhsmrm9M3.jpg)|

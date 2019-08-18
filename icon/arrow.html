@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Arrow</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #bdc3c7;
+    }
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    ul {
+      display: flex;
+    }
+    ul li {
+      margin: 10px;
+      list-style: none;
+      box-shadow: 0 0 0 1px #000;
+      padding: 20px;
+    }
+    .arrow {
+      width: 10px;
+      height: 10px;
+      border: 2px solid #000;
+      border-left: none;
+      border-bottom: none;
+    }
+    .arrow::before {
+      content: '';
+      position: absolute;
+      width: 20px;
+      height: 2px;
+      background: #000;
+      transform: rotate(-45deg) translate(-8px, -1px);
+    }
+    .top {
+      transform: rotate(-45deg);
+    }
+    .right {
+      transform: rotate(45deg);
+    }
+    .bottom {
+      transform: rotate(135deg);
+    }
+    .left {
+      transform: rotate(225deg);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <ul>
+      <li><div class="arrow top"></div></li>
+      <li><div class="arrow right"></div></li>
+      <li><div class="arrow bottom"></div></li>
+      <li><div class="arrow left"></div></li>
+    </ul>
+  </div>
+</body>
+</html>
