@@ -5,6 +5,7 @@
   - [Button](#button)
   - [Pagination](#pagination)
   - [Icon](#icon)
+  - [Loading](#loading)
 
 easy-css-layout
 ===============
@@ -23,8 +24,8 @@ Just for practice & backups
 
 |Name|Source|Demo|Preview|
 |:---:|:---:|:---:|:---:|
-|navBar01|[navbar01](https://github.com/ajycc20/easy-css-layout/blob/master/navbar/navbar01.html)|[NavBar01](https://ajycc20.github.io/easy-css-layout/navbar/navbar01.html)|![navBar01.png](https://img2.ajycc20.xyz/images/2019/08/11/cCwnFSkkb25owr2b.png)|
-|navBar02|[navbar02](https://github.com/ajycc20/easy-css-layout/blob/master/navbar/navbar02.html)|[NavBar02](https://ajycc20.github.io/easy-css-layout/navbar/navbar02.html)|![navBar02.png](https://img2.ajycc20.xyz/images/2019/08/14/EagA29gpeaY1PQCr.jpg)|
+|NavBar01|[navbar01](https://github.com/ajycc20/easy-css-layout/blob/master/navbar/navbar01.html)|[navBar01](https://ajycc20.github.io/easy-css-layout/navbar/navbar01.html)|![navBar01.png](https://img2.ajycc20.xyz/images/2019/08/11/cCwnFSkkb25owr2b.png)|
+|NavBar02|[navbar02](https://github.com/ajycc20/easy-css-layout/blob/master/navbar/navbar02.html)|[navBar02](https://ajycc20.github.io/easy-css-layout/navbar/navbar02.html)|![navBar02.png](https://img2.ajycc20.xyz/images/2019/08/14/EagA29gpeaY1PQCr.jpg)|
 
 -------------------
 
@@ -32,8 +33,8 @@ Just for practice & backups
 
 |Name|Source|Demo|Preview|
 |:---:|:---:|:---:|:---:|
-|searchbox01|[searchbox01](https://github.com/ajycc20/easy-css-layout/blob/master/searchbox/searchbox01.html)|[SearchBox01](https://ajycc20.github.io/easy-css-layout/searchbox/searchbox01.html)|![searchBox01.jpg](https://img2.ajycc20.xyz/images/2019/08/12/vIrHtMwqh602KnZg.jpg)|
-|searchbox02|[searchbox02](https://github.com/ajycc20/easy-css-layout/blob/master/searchbox/searchbox02.html)|[SearchBox02](https://ajycc20.github.io/easy-css-layout/searchbox/searchbox02.html)|![searchBox02.jpg](https://img2.ajycc20.xyz/images/2019/08/12/Ixnmo0YTif0HXaKq.jpg)|
+|Searchbox01|[searchbox01](https://github.com/ajycc20/easy-css-layout/blob/master/searchbox/searchbox01.html)|[searchBox01](https://ajycc20.github.io/easy-css-layout/searchbox/searchbox01.html)|![searchBox01.jpg](https://img2.ajycc20.xyz/images/2019/08/12/vIrHtMwqh602KnZg.jpg)|
+|Searchbox02|[searchbox02](https://github.com/ajycc20/easy-css-layout/blob/master/searchbox/searchbox02.html)|[searchBox02](https://ajycc20.github.io/easy-css-layout/searchbox/searchbox02.html)|![searchBox02.jpg](https://img2.ajycc20.xyz/images/2019/08/12/Ixnmo0YTif0HXaKq.jpg)|
 
 ---------------------
 
@@ -41,9 +42,9 @@ Just for practice & backups
 
 |Name|Source|Demo|Preview|
 |:---:|:---:|:---:|:---:|
-|button01|[button01](https://github.com/ajycc20/easy-css-layout/blob/master/button/button01.html)|[Button01](https://ajycc20.github.io/easy-css-layout/button/button01.html)|![button01.jpg](https://img2.ajycc20.xyz/images/2019/08/13/b1r3UulwdQHwuobA.jpg)|
-|button02|[button02](https://github.com/ajycc20/easy-css-layout/blob/master/button/button02.html)|[Button02](https://ajycc20.github.io/easy-css-layout/button/button02.html)|![button02.jpg](https://img2.ajycc20.xyz/images/2019/08/15/rCbp2jdUwSK7v194.jpg)|
-|button03|[button03](https://github.com/ajycc20/easy-css-layout/blob/master/button/button03.html)|[Button03](https://ajycc20.github.io/easy-css-layout/button/button03.html)|![button03.jpg](https://img2.ajycc20.xyz/images/2019/08/15/Bum6U432miq5Kwdo.jpg)|
+|Button01|[button01](https://github.com/ajycc20/easy-css-layout/blob/master/button/button01.html)|[button01](https://ajycc20.github.io/easy-css-layout/button/button01.html)|![button01.jpg](https://img2.ajycc20.xyz/images/2019/08/13/b1r3UulwdQHwuobA.jpg)|
+|Button02|[button02](https://github.com/ajycc20/easy-css-layout/blob/master/button/button02.html)|[button02](https://ajycc20.github.io/easy-css-layout/button/button02.html)|![button02.jpg](https://img2.ajycc20.xyz/images/2019/08/15/rCbp2jdUwSK7v194.jpg)|
+|Button03|[button03](https://github.com/ajycc20/easy-css-layout/blob/master/button/button03.html)|[button03](https://ajycc20.github.io/easy-css-layout/button/button03.html)|![button03.jpg](https://img2.ajycc20.xyz/images/2019/08/15/Bum6U432miq5Kwdo.jpg)|
 
 ----------------------
 
@@ -51,9 +52,9 @@ Just for practice & backups
 
 |Name|Source|Demo|Preview|
 |:---:|:---:|:---:|:---:|
-|pagination01|[pagination01](https://github.com/ajycc20/easy-css-layout/blob/master/pagination/pagination01.html)|[Pagination01](https://ajycc20.github.io/easy-css-layout/pagination/pagination01.html)|![pagination01.jpg](https://img2.ajycc20.xyz/images/2019/08/16/r4z2le2j5ZpTHSLu.jpg)|
-|pagination02|[pagination02](https://github.com/ajycc20/easy-css-layout/blob/master/pagination/pagination02.html)|[Pagination02](https://ajycc20.github.io/easy-css-layout/pagination/pagination02.html)|![pagination02.jpg](https://img2.ajycc20.xyz/images/2019/08/16/OpYAEmsXsgftWLh4.jpg)|
-|pagination03|[pagination03](https://github.com/ajycc20/easy-css-layout/blob/master/pagination/pagination03.html)|[Pagination03](https://ajycc20.github.io/easy-css-layout/pagination/pagination03.html)|![pagination03.jpg](https://img2.ajycc20.xyz/images/2019/08/18/RgfnenAPXHj4BUcA.jpg)|
+|Pagination01|[pagination01](https://github.com/ajycc20/easy-css-layout/blob/master/pagination/pagination01.html)|[pagination01](https://ajycc20.github.io/easy-css-layout/pagination/pagination01.html)|![pagination01.jpg](https://img2.ajycc20.xyz/images/2019/08/16/r4z2le2j5ZpTHSLu.jpg)|
+|Pagination02|[pagination02](https://github.com/ajycc20/easy-css-layout/blob/master/pagination/pagination02.html)|[pagination02](https://ajycc20.github.io/easy-css-layout/pagination/pagination02.html)|![pagination02.jpg](https://img2.ajycc20.xyz/images/2019/08/16/OpYAEmsXsgftWLh4.jpg)|
+|Pagination03|[pagination03](https://github.com/ajycc20/easy-css-layout/blob/master/pagination/pagination03.html)|[pagination03](https://ajycc20.github.io/easy-css-layout/pagination/pagination03.html)|![pagination03.jpg](https://img2.ajycc20.xyz/images/2019/08/18/RgfnenAPXHj4BUcA.jpg)|
 
 ----------------------
 
@@ -61,4 +62,15 @@ Just for practice & backups
 
 |Name|Source|Demo|Preview|
 |:---:|:---:|:---:|:---:|
-|Arrow|[arrow](https://github.com/ajycc20/easy-css-layout/blob/master/icon/arrow.html)|[Arrow](https://ajycc20.github.io/easy-css-layout/icon/arrow.html)|![arrow.jpg](https://img2.ajycc20.xyz/images/2019/08/18/oFYcjPQlhsmrm9M3.jpg)|
+|Arrow|[arrow](https://github.com/ajycc20/easy-css-layout/blob/master/icon/arrow.html)|[arrow](https://ajycc20.github.io/easy-css-layout/icon/arrow.html)|![arrow.jpg](https://img2.ajycc20.xyz/images/2019/08/18/oFYcjPQlhsmrm9M3.jpg)|
+|Setting|[setting](https://github.com/ajycc20/easy-css-layout/blob/master/icon/setting.html)|[rotate setting](https://ajycc20.github.io/easy-css-layout/icon/setting.html)|![setting.jpg](https://img2.ajycc20.xyz/images/2019/08/19/c791TgFj6umr1fsS.jpg)|
+
+----------------------
+
+## Loading
+
+|Name|Source|Demo|Preview|
+|:---:|:---:|:---:|:---:|
+|Loading01|[loading01](https://github.com/ajycc20/easy-css-layout/blob/master/loading/loading01.html)|[loading01](https://ajycc20.github.io/easy-css-layout/loading/loading01.html)|![loading01.jpg](https://img2.ajycc20.xyz/images/2019/08/19/JobT4PsyQGRR3KKs.jpg)|
+|Loading02|[loading02](https://github.com/ajycc20/easy-css-layout/blob/master/loading/loading02.html)|[loading02](https://ajycc20.github.io/easy-css-layout/loading/loading02.html)|![loading02.jpg](https://img2.ajycc20.xyz/images/2019/08/19/Nq7KCQCF3ddy7ZKA.jpg)|
+|Loading03|[loading03](https://github.com/ajycc20/easy-css-layout/blob/master/loading/loading03.html)|[loading03](https://ajycc20.github.io/easy-css-layout/loading/loading03.html)|![loading03.jpg](https://img2.ajycc20.xyz/images/2019/08/19/WngYEEs1Bh6j13x8.jpg)|

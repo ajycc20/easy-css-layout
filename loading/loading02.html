@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Loading 02</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #2c3e50;
+    }
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .loading {
+      position: relative;
+      display: flex;
+    }
+    .loading span {
+      width: 20px;
+      height: 20px;
+      background: #fff;
+      border-radius: 50%;
+      margin: 0 5px;
+      box-shadow: 0 4px 4px rgba(0, 0, 0, .2);
+    }
+    .loading span:not(:last-child) {
+      animation: loading 1s linear infinite;
+    }
+    .loading span:last-child {
+      animation: up 1s ease-in-out infinite;
+    }
+    @keyframes loading {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(30px);
+      }
+    }
+    @keyframes up {
+      0% {
+        transform: translate(0, 0);
+      }
+      10% {
+        transform: translate(0, -20px);
+      }
+      20% {
+        transform: translate(0, -50px);
+      }
+      30% {
+        transform: translate(-20px, -50px);
+      }
+      40% {
+        transform: translate(-40px, -50px);
+      }
+      50% {
+        transform: translate(-65px, -50px);
+      }
+      60% {
+        transform: translate(-90px, -50px);
+      }
+      70% {
+        transform: translate(-125px, -50px);
+      }
+      80% {
+        transform: translate(-160px, -50px);
+      }
+      90% {
+        transform: translate(-160px, -20px);
+      }
+      100% {
+        transform: translate(-160px, 0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="loading">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+</body>
+</html>
