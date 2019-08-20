@@ -17,7 +17,7 @@ Prerequisite
 Just for practice & backups
 
 1.  `You can view the source code in the Source column.`
-2.  `At the same time, you can view the corresponding sample in the Demo column.`
+2.  `At the same time, you can view the demo in the Demo column.`
 
 ----------------
 
