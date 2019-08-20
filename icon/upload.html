@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Upload</title>
+  <style>
+     body {
+      margin: 0;
+      padding: 0;
+      background: #ecf0f1;
+    }
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .upload {
+      color: #000;
+      width: 15px;
+      height: 5px;
+      border: 1px solid currentColor;
+      border-radius: 1px;
+      border-top: none;
+    }
+    .upload::before {
+      content: '';
+      position: absolute;
+      top: -13px;
+      left: 8px;
+      width: 1px;
+      height: 14px;
+      background: currentColor;
+    }
+    .upload::after {
+      content: '';
+      position: absolute;
+      top: -13px;
+      left: 5px;
+      width: 6px;
+      height: 6px;
+      border: 1px solid currentColor;
+      border-bottom: none;
+      border-right: none;
+      transform: rotate(45deg);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="upload"></div>
+  </div>
+</body>
+</html>

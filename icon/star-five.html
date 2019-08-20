@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Star Five</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #ecf0f1;
+    }
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .star-five {
+      position: relative;
+      color: #f00;
+      width: 0px;
+      height: 0px;
+      display: block;
+      border-right: 10px solid transparent;
+      border-bottom: 7px solid currentColor;
+      border-left: 10px solid transparent;
+      transform: rotate(35deg);
+    }
+    .star-five::before {
+      content: '';
+      position: absolute;
+      border-bottom: 10px solid currentColor;
+      border-left: 3px solid transparent;
+      border-right: 3px solid transparent;
+      transform: rotate(-35deg) translate(0px, -9px);
+      transform-origin: bottom;
+    }
+    .star-five::after {
+      content: '';
+      position: absolute;
+      border-top: 10px solid transparent;
+      border-left: 7px solid currentColor;
+      border-bottom: 10px solid transparent;
+      transform: rotate(200deg) translate(0px, 5px);
+      transform-origin: left;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="star-five"></div>
+  </div>
+</body>
+</html>

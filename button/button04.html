@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Button 04</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #34495e;
+      font-family: sans-serif;
+    }
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .container a {
+      text-transform: uppercase;
+      text-decoration: none;
+      letter-spacing: 2px;
+      font-size: 24px;
+      color: #ecf0f1;
+      padding: 20px 44px;
+      border-radius: 40px;
+      text-align: center;
+      box-sizing: border-box;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+      background: linear-gradient(90deg, #95a5a6, #2ecc71, #f1c40f, #d35400, #95a5a6);
+      background-size: 200%;
+    }
+    a:hover {
+      animation: gradient 4s linear infinite;
+    }
+    @keyframes gradient {
+      0% {
+        background-position-x: 0;
+      }
+      100% {
+        background-position-x: 200%;
+      }
+    }
+    a::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 130px;
+      height: 40px;
+      padding: 20px 44px;
+      border-radius: 40px;
+      z-index: -1;
+      background: linear-gradient(90deg, #95a5a6, #2ecc71, #f1c40f, #d35400, #95a5a6);
+      background-size: 200%;
+      opacity: 0;
+      transition: .5s;
+    }
+    a:hover::before {
+      filter: blur(20px);
+      opacity: 1;
+      animation: gradient 4s linear infinite;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="#">Button</a>
+  </div>  
+</body>
+</html>
