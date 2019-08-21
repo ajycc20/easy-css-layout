@@ -48,6 +48,7 @@ Just for practice & backups
 |Button02|[button02](https://github.com/ajycc20/easy-css-layout/blob/master/button/button02.html)|[button02](https://ajycc20.github.io/easy-css-layout/button/button02.html)|![button02.jpg](https://img2.ajycc20.xyz/images/2019/08/15/rCbp2jdUwSK7v194.jpg)|
 |Button03|[button03](https://github.com/ajycc20/easy-css-layout/blob/master/button/button03.html)|[button03](https://ajycc20.github.io/easy-css-layout/button/button03.html)|![button03.jpg](https://img2.ajycc20.xyz/images/2019/08/15/Bum6U432miq5Kwdo.jpg)|
 |Button04|[button04](https://github.com/ajycc20/easy-css-layout/blob/master/button/button04.html)|[button04](https://ajycc20.github.io/easy-css-layout/button/button04.html)|![button04.jpg](https://img2.ajycc20.xyz/images/2019/08/20/owATMP2ALTKoOxVI.jpg)|
+|Button05|[button05](https://github.com/ajycc20/easy-css-layout/blob/master/button/button05.html)|[button05](https://ajycc20.github.io/easy-css-layout/button/button05.html)|![button05.jpg](https://img2.ajycc20.xyz/images/2019/08/21/ag5tOhnLohv6WBTo.jpg)|
 
 ----------------------
 
@@ -70,6 +71,7 @@ Just for practice & backups
 |Star-five|[star-five](https://github.com/ajycc20/easy-css-layout/blob/master/icon/star-five.html)|[star-five](https://ajycc20.github.io/easy-css-layout/icon/star-five.html)|![star-five.jpg](https://img2.ajycc20.xyz/images/2019/08/20/9GGQc5D6LhkgQWmh.jpg)|
 |Download|[download](https://github.com/ajycc20/easy-css-layout/blob/master/icon/download.html)|[download](https://ajycc20.github.io/easy-css-layout/icon/download.html)|![download.jpg](https://img2.ajycc20.xyz/images/2019/08/20/EqxDbCtpRsBbqO8j.jpg)|
 |Upload|[upload](https://github.com/ajycc20/easy-css-layout/blob/master/icon/upload.html)|[upload](https://ajycc20.github.io/easy-css-layout/icon/upload.html)|![upload.jpg](https://img2.ajycc20.xyz/images/2019/08/20/8Z41T7Dy2V5pfMIY.jpg)|
+|Power|[power](https://github.com/ajycc20/easy-css-layout/blob/master/icon/power.html)|[power](https://ajycc20.github.io/easy-css-layout/icon/power.html)|![power.jpg](https://img2.ajycc20.xyz/images/2019/08/21/iwn2hcr5vICA9hGX.jpg)|
 
 ----------------------
 

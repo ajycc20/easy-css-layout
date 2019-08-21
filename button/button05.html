@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Button 05</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #323436;
+    }
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .container input[type="checkbox"] {
+      -webkit-appearance: none;
+      height: 48px;
+      width: 48px;
+      outline: none;
+      cursor: pointer;
+      background: transparent;
+      border-radius: 50%;
+      box-shadow: inset 0px 3px 3px rgba(255, 255, 255, .3),
+      inset 0 -3px 5px rgba(0, 0, 0, 1),
+      0px 3px 4px rgba(0, 0, 0, 1);
+    }
+    .container input[type="checkbox"]:checked {
+      box-shadow: inset 0px 3px 3px rgba(255, 255, 255, .3),
+      inset 0 -3px 5px rgba(0, 0, 0, .6),
+      inset 0 0 5px #789ceb,
+      0 0 3px 5px rgba(0, 0, 0, .5),
+      0 0 13px #2980b9,
+      0 0 16px #2980b9;
+    }
+    .container input[type="checkbox"]:checked ~ .power {
+      box-shadow: 0 0 1px #7f87f1,
+      0 0 3px #3498db,
+      2px 1px 5px #2276ee,
+      inset 0 0 5px #3498db;
+      border: solid #7f87f1;
+      color: #b7a9fa;
+    }
+    .power {
+      position: absolute;
+      top: 58px;
+      left: 1px;
+      width: 15px;
+      height: 15px;
+      color: #000;
+      border: solid #000;
+      border-radius: 50%;
+      border-top: none;
+      transform: translate(19px, -40px);
+      z-index: -1;
+    }
+    .power::before {
+      content: '';
+      position: absolute;
+      top: -2px;
+      left: 7px;
+      width: 1px;
+      height: 8px;
+      background: currentColor;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <input type="checkbox">
+    <div class="power"></div>
+  </div>
+</body>
+</html>
