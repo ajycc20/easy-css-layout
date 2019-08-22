@@ -7,6 +7,7 @@
   - [Icon](#icon)
   - [Loading](#loading)
   - [Switch](#switch)
+  - [Input](#input)
 
 easy-css-layout
 ===============
@@ -72,6 +73,7 @@ Just for practice & backups
 |Download|[download](https://github.com/ajycc20/easy-css-layout/blob/master/icon/download.html)|[download](https://ajycc20.github.io/easy-css-layout/icon/download.html)|![download.jpg](https://img2.ajycc20.xyz/images/2019/08/20/EqxDbCtpRsBbqO8j.jpg)|
 |Upload|[upload](https://github.com/ajycc20/easy-css-layout/blob/master/icon/upload.html)|[upload](https://ajycc20.github.io/easy-css-layout/icon/upload.html)|![upload.jpg](https://img2.ajycc20.xyz/images/2019/08/20/8Z41T7Dy2V5pfMIY.jpg)|
 |Power|[power](https://github.com/ajycc20/easy-css-layout/blob/master/icon/power.html)|[power](https://ajycc20.github.io/easy-css-layout/icon/power.html)|![power.jpg](https://img2.ajycc20.xyz/images/2019/08/21/iwn2hcr5vICA9hGX.jpg)|
+|Search|[search](https://github.com/ajycc20/easy-css-layout/blob/master/icon/search.html)|[search](https://ajycc20.github.io/easy-css-layout/icon/search.html)|![search.jpg](https://img2.ajycc20.xyz/images/2019/08/22/sHTSyzY7rOw5VtFG.jpg)|
 
 ----------------------
 
@@ -90,3 +92,11 @@ Just for practice & backups
 |Name|Source|Demo|Preview|
 |:---:|:---:|:---:|:---:|
 |Switch01|[switch01](https://github.com/ajycc20/easy-css-layout/blob/master/switch/switch01.html)|[switch01](https://ajycc20.github.io/easy-css-layout/switch/switch01.html)|![switch01.jpg](https://img2.ajycc20.xyz/images/2019/08/19/TGfJhvO6rbLgyWiP.jpg)|
+
+----------------------
+
+## Input
+
+|Name|Source|Demo|Preview|
+|:---:|:---:|:---:|:---:|
+|Input01|[input01](https://github.com/ajycc20/easy-css-layout/blob/master/input/input01.html)|[input01](https://ajycc20.github.io/easy-css-layout/input/input01.html)|![input01.jpg](https://img2.ajycc20.xyz/images/2019/08/22/NAupN86rRT0ZrM6x.jpg)|
