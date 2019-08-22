@@ -37,7 +37,7 @@
       background-color: currentColor;
     }
     input[type="text"] {
-      position: absolute;
+      position: relative;
       top: -3px;
       left: -2px;
       width: 160px;
@@ -57,26 +57,26 @@
     }
     @keyframes input-focus {
       0% {
-        transform: scaleX(0) translate(-2px, 23px);
+        transform: scaleX(0) translate(-2px, -4px);
       }
       100% {
-        transform: scaleX(1) translate(-2px, 23px);
+        transform: scaleX(1) translate(-2px, -4px);
       }
     }
     input[type="text"]:focus ~ .label {
-      transform: translate(0px, -22px);
+      transform: translate(0px, -50px);
       color: #8e44ad;
     }
     .underline {
       position: absolute;
       display: block;
       width: 182px;
-      transform: translate(-2px, 23px);
+      transform: translate(-2px, -4px);
       transform-origin: bottom;
     }
     .label {
       position: absolute;
-      transform: translate(18px, 1px);
+      transform: translate(18px, -28px);
       color: #beb1b1;
       font-family: sans-serif;
       transition: .3s;
