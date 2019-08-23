@@ -50,6 +50,8 @@ Just for practice & backups
 |Button03|[button03](https://github.com/ajycc20/easy-css-layout/blob/master/button/button03.html)|[button03](https://ajycc20.github.io/easy-css-layout/button/button03.html)|![button03.jpg](https://img2.ajycc20.xyz/images/2019/08/15/Bum6U432miq5Kwdo.jpg)|
 |Button04|[button04](https://github.com/ajycc20/easy-css-layout/blob/master/button/button04.html)|[button04](https://ajycc20.github.io/easy-css-layout/button/button04.html)|![button04.jpg](https://img2.ajycc20.xyz/images/2019/08/20/owATMP2ALTKoOxVI.jpg)|
 |Button05|[button05](https://github.com/ajycc20/easy-css-layout/blob/master/button/button05.html)|[button05](https://ajycc20.github.io/easy-css-layout/button/button05.html)|![button05.jpg](https://img2.ajycc20.xyz/images/2019/08/21/ag5tOhnLohv6WBTo.jpg)|
+|Button06|[button06](https://github.com/ajycc20/easy-css-layout/blob/master/button/button06.html)|[button06](https://ajycc20.github.io/easy-css-layout/button/button06.html)|![button06.jpg](https://img2.ajycc20.xyz/images/2019/08/23/eAK6RRoCw9kcXM5B.jpg)|
+|Button07|[button07](https://github.com/ajycc20/easy-css-layout/blob/master/button/button07.html)|[button07](https://ajycc20.github.io/easy-css-layout/button/button07.html)|![button07.jpg](https://img2.ajycc20.xyz/images/2019/08/23/qEw0YUxfQvR1GSrz.jpg)|
 
 ----------------------
 
@@ -92,6 +94,9 @@ Just for practice & backups
 |Name|Source|Demo|Preview|
 |:---:|:---:|:---:|:---:|
 |Switch01|[switch01](https://github.com/ajycc20/easy-css-layout/blob/master/switch/switch01.html)|[switch01](https://ajycc20.github.io/easy-css-layout/switch/switch01.html)|![switch01.jpg](https://img2.ajycc20.xyz/images/2019/08/19/TGfJhvO6rbLgyWiP.jpg)|
+|Switch02|[switch02](https://github.com/ajycc20/easy-css-layout/blob/master/switch/switch02.html)|[switch02](https://ajycc20.github.io/easy-css-layout/switch/switch02.html)|![switch02.jpg](https://img2.ajycc20.xyz/images/2019/08/23/4MZ5LrjOHs8JKDn1.jpg)|
+|Switch03|[switch03](https://github.com/ajycc20/easy-css-layout/blob/master/switch/switch03.html)|[switch03](https://ajycc20.github.io/easy-css-layout/switch/switch03.html)|![switch03.jpg](https://img2.ajycc20.xyz/images/2019/08/23/cvXOSRYjxzwsX9or.jpg)|
+|Switch04|[switch04](https://github.com/ajycc20/easy-css-layout/blob/master/switch/switch04.html)|[switch04](https://ajycc20.github.io/easy-css-layout/switch/switch04.html)|![switch04.jpg](https://img2.ajycc20.xyz/images/2019/08/23/mhX9zMUqla0BMdrk.jpg)|
 
 ----------------------
 

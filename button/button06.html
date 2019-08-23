@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Button 06</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #34495e;
+    }
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .btn {
+      position: relative;
+      width: 160px;
+      height: 60px;
+      border: none;
+      outline: none;
+      color: #fff;
+      background: none;
+      font-family: sans-serif;
+      font-size: 22px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+    }
+    .btn::before,
+    .btn::after,
+    .btn span::before,
+    .btn span::after {
+      content: '';
+      position: absolute;
+      width: 8px;
+      height: 8px;
+      transition: .5s;
+    }
+    .btn::before {
+      top: -4px;
+      left: -4px;
+      border-top: 1px solid #f1c40f;
+      border-left: 1px solid #f1c40f;
+    }
+    .btn::after {
+      top: -4px;
+      right: -4px;
+      border-top: 1px solid #f1c40f;
+      border-right: 1px solid #f1c40f;
+    }
+    .btn span::before {
+      bottom: -4px;
+      left: -4px;
+      border-bottom: 1px solid #f1c40f;
+      border-left: 1px solid #f1c40f;
+    }
+    .btn span::after {
+      bottom: -4px;
+      right: -4px;
+      border-bottom: 1px solid #f1c40f;
+      border-right: 1px solid #f1c40f;
+    }
+    .btn:hover::before,
+    .btn:hover::after,
+    .btn:hover span::before,
+    .btn:hover span::after {
+      width: 50%;
+      height: 50%;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <button class="btn"><span></span>Button</button>
+  </div>
+</body>
+</html>

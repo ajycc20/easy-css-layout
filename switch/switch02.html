@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Switch02</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #fff;
+    }
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    input[type="checkbox"] {
+      position: relative;
+      width: 80px;
+      height: 36px;
+      -webkit-appearance: none;
+      border-radius: 18px;
+      outline: none;
+      background: none;
+      box-shadow: inset 0 0 12px #2b3136,
+                  inset 0 0 18px #2e363f,
+                  inset 0 0 24px #494444,
+                  inset 0 0 30px #463333,
+                  inset 0 0 36px #3d3333,
+                  0 0 0 8px #dcdfe0;
+      transition: .5s;
+    }
+    input[type="checkbox"]::before {
+      content: 'OFF';
+      position: absolute;
+      color: #bdc3c7;
+      width: 36px;
+      height: 36px;
+      top: 0px;
+      left: 0px;
+      font-size: 10px;
+      text-align: center;
+      line-height: 36px;
+      border-radius: 50%;
+      transform: scale(1.05);
+      box-shadow: inset 0 0 0 4px #f1f6f7,
+                  inset 0 0 0 32px rgba(245, 250, 250, 0.9);
+      transition: .5s;
+    }
+    input[type="checkbox"]:checked {
+      box-shadow: inset 0 0 16px #7f8c8d,
+                  inset 0 0 36px #e74c3c,
+                  0 0 0 8px #dcdfe0;
+    }
+    input[type="checkbox"]:checked::before {
+      content: 'ON';
+      left: 44px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <input type="checkbox" name="">
+  </div>
+</body>
+</html>

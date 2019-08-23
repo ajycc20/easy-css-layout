@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Switch 03</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #000;
+    }
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    input[type="checkbox"] {
+      position: relative;
+      width: 80px;
+      height: 36px;
+      -webkit-appearance: none;
+      border-radius: 18px;
+      outline: none;
+      background: none;
+      box-shadow: 0 0 1px #eeeeee;
+      transition: .5s;
+    }
+    input[type="checkbox"]::before {
+      content: '';
+      position: absolute;
+      width: 26px;
+      height: 26px;
+      top: 5px;
+      left: 4px;
+      box-shadow: 0 0 2px #eeeeee;
+      border-radius: 50%;
+      transition: .5s;
+    }
+    input[type="checkbox"]::after {
+      content: 'FF';
+      position: absolute;
+      top: 5px;
+      right: -30px;
+      color: #4d3a3a;
+      font-size: 22px;
+      transition: .5s;
+    }
+    input[type="checkbox"]:checked {
+      box-shadow: 0 0 0 1px #eeeeee;
+    }
+    input[type="checkbox"]:checked::before {
+      left: 50px;
+      background: #eeeeee;
+    }
+    input[type="checkbox"]:checked:after {
+      content: 'N';
+      position: absolute;
+      top: 5px;
+      right: -20px;
+      color: #eeeeee;
+      font-size: 22px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <input type="checkbox" name="">
+  </div>
+</body>
+</html>
