@@ -18,13 +18,15 @@
       left: 50%;
       transform: translate(-50%, -50%);
     }
-    .container a {
+    .btn {
       text-transform: uppercase;
       text-decoration: none;
       letter-spacing: 2px;
       font-size: 24px;
       color: #ecf0f1;
       padding: 20px 44px;
+      outline: none;
+      border: none;
       border-radius: 40px;
       text-align: center;
       box-sizing: border-box;
@@ -32,7 +34,7 @@
       background: linear-gradient(90deg, #95a5a6, #2ecc71, #f1c40f, #d35400, #95a5a6);
       background-size: 200%;
     }
-    a:hover {
+    .btn:hover {
       animation: gradient 4s linear infinite;
     }
     @keyframes gradient {
@@ -43,7 +45,7 @@
         background-position-x: 200%;
       }
     }
-    a::before {
+    .btn::before {
       content: '';
       position: absolute;
       top: 50%;
@@ -59,7 +61,7 @@
       opacity: 0;
       transition: .5s;
     }
-    a:hover::before {
+    .btn:hover::before {
       filter: blur(20px);
       opacity: 1;
       animation: gradient 4s linear infinite;
@@ -68,7 +70,7 @@
 </head>
 <body>
   <div class="container">
-    <a href="#">Button</a>
+    <button class="btn">Button</button>
   </div>  
 </body>
 </html>

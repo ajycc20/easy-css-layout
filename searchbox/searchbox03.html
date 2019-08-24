@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Search Box 03</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #2d3436;
+    }
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    input {
+      box-sizing: border-box;
+    }
+    input[type="text"] {
+      border: none;
+      outline: none;
+      width: 340px;
+      height: 40px;
+      font-size: 22px;
+      border-radius: 20px;
+      padding: 5px 100px 5px 16px;
+    }
+    input[type="submit"] {
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      height: 40px;
+      width: 86px;
+      border: none;
+      outline: none;
+      color: #fff;
+      font-size: 18px;
+      padding: 0 8px;
+      letter-spacing: 2px;
+      background: #fdcb6e;
+      border-radius: 0 20px 20px 0;
+      transform-origin: right;
+      cursor: pointer;
+      transition: .5s;
+    }
+    input[type="submit"]:hover {
+      background: #daa950;
+      text-shadow: 0 0 4px rgb(238, 247, 113);
+    }
+    input[type="submit"]:active {
+      background: #6c5ce7;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <form action="#">
+      <input type="text" placeholder="Search">
+      <input class="btn" type="submit" value="Submit"></input>
+    </form>
+  </div>
+</body>
+</html>
