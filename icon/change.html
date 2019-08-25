@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Change</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #bdc3c7;
+    }
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .change {
+      width: 18px;
+      height: 6px;
+      border-top: 1px solid #000;
+      border-bottom: 1px solid #000;
+      box-sizing: border-box;
+    }
+    .change::before {
+      content: '';
+      position: absolute;
+      width: 6px;
+      height: 1px;
+      background: #000;
+      top: 0px;
+      right: 0px;
+      transform: rotate(45deg);
+      transform-origin: right top;
+    }
+    .change::after {
+      content: '';
+      position: absolute;
+      width: 6px;
+      height: 1px;
+      background: #000;
+      bottom: 0px;
+      left: 0px;
+      transform: rotate(45deg);
+      transform-origin: left bottom;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="change"></div>
+  </div>
+</body>
+</html>

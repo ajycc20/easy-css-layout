@@ -77,6 +77,8 @@ Just for practice & backups
 |Upload|[upload](https://github.com/ajycc20/easy-css-layout/blob/master/icon/upload.html)|[upload](https://ajycc20.github.io/easy-css-layout/icon/upload.html)|![upload.jpg](https://img2.ajycc20.xyz/images/2019/08/20/8Z41T7Dy2V5pfMIY.jpg)|
 |Power|[power](https://github.com/ajycc20/easy-css-layout/blob/master/icon/power.html)|[power](https://ajycc20.github.io/easy-css-layout/icon/power.html)|![power.jpg](https://img2.ajycc20.xyz/images/2019/08/21/iwn2hcr5vICA9hGX.jpg)|
 |Search|[search](https://github.com/ajycc20/easy-css-layout/blob/master/icon/search.html)|[search](https://ajycc20.github.io/easy-css-layout/icon/search.html)|![search.jpg](https://img2.ajycc20.xyz/images/2019/08/22/sHTSyzY7rOw5VtFG.jpg)|
+|Change|[change](https://github.com/ajycc20/easy-css-layout/blob/master/icon/change.html)|[change](https://ajycc20.github.io/easy-css-layout/icon/change.html)|![change.jpg](https://img2.ajycc20.xyz/images/2019/08/25/1htUC4unygogS3WJ.jpg)|
+|Change02|[change02](https://github.com/ajycc20/easy-css-layout/blob/master/icon/change02.html)|[change02](https://ajycc20.github.io/easy-css-layout/icon/change02.html)|![change02.jpg](https://img2.ajycc20.xyz/images/2019/08/25/ne9i5jVoPENvuWuA.jpg)|
 
 ----------------------
 
