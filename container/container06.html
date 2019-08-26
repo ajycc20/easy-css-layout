@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Container 06</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 400px;
+      display: flex;
+    }
+    .sidebar {
+      width: 100px;
+      background: #b3bac4;
+      line-height: 200px;
+      text-align: center;
+    }
+    .main-container {
+      background: #e9eef3;
+      line-height: 140px;
+      text-align: center;
+      box-sizing: border-box;
+      flex: 1;
+      flex-basis: auto;
+    }
+    .header {
+      background: #8e97a3;
+      text-align: center;
+      height: 60px;
+      line-height: 60px;
+      padding: 0 20px;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">SideBar</div>
+    <div class="main-container">
+      <div class="header">Header</div>
+      <div class="app-main">App-Main</div>
+    </div>
+  </div>
+</body>
+</html>
