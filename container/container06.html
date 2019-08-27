@@ -25,8 +25,6 @@
       text-align: center;
     }
     .main-container {
-      background: #e9eef3;
-      line-height: 140px;
       text-align: center;
       box-sizing: border-box;
       flex: 1;
@@ -40,15 +38,20 @@
       padding: 0 20px;
       box-sizing: border-box;
     }
+    .app-main {
+      line-height: 140px;
+      background: #e9eef3;
+      padding: 0 20px;
+    }
   </style>
 </head>
 <body>
-  <div class="container">
-    <div class="sidebar">SideBar</div>
-    <div class="main-container">
-      <div class="header">Header</div>
-      <div class="app-main">App-Main</div>
-    </div>
-  </div>
+  <section class="container">
+    <aside class="sidebar">SideBar</aside>
+    <section class="main-container">
+      <header class="header">Header</header>
+      <main class="app-main">App-Main</main>
+    </section>
+  </section>
 </body>
 </html>

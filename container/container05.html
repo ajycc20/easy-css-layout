@@ -35,15 +35,17 @@
       text-align: center;
     }
     .app-container {
-      background: #e9eef3;
-      line-height: 140px;
-      text-align: center;
       box-sizing: border-box;
+      text-align: center;
       flex: 1;
       flex-basis: auto;
     }
+    .app-main {
+      line-height: 140px;
+      background: #e9eef3;
+      padding: 0 20px;
+    }
     .footer {
-      height: 60px;
       line-height: 60px;
       background: #79a7aa;
       padding: 0 20px;
@@ -51,15 +53,15 @@
   </style>
 </head>
 <body>
-  <div class="container">
-    <div class="header">Header</div>
-    <div class="main-container">
-      <div class="sidebar">SideBar</div>
-      <div class="app-container">
-        <div class="app-main">App-Main</div>
-        <div class="footer">Footer</div>
-      </div>
-    </div>
-  </div>
+  <section class="container">
+    <header class="header">Header</header>
+    <section class="main-container">
+      <aside class="sidebar">SideBar</aside>
+      <section class="app-container">
+        <main class="app-main">App-Main</main>
+        <footer class="footer">Footer</footer>
+      </section>
+    </section>
+  </section>
 </body>
 </html>

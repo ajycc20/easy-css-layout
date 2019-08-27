@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Scan</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #dff9fb;
+    }
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .scan {
+      color: #130f40;
+      width: 16px;
+      height: 16px;
+      border: 1px solid currentColor;
+      border-radius: 2px;
+      position: relative;
+    }
+    .scan::before {
+      content: '';
+      color: #dff9fb;
+      position: absolute;
+      width: 20px;
+      height: 6px;
+      top: 5px;
+      left: -2px;
+      background: currentColor;
+      transform-origin: center;
+    }
+    .scan::after {
+      content: '';
+      color: #dff9fb;
+      position: absolute;
+      width: 6px;
+      height: 20px;
+      left: 5px;
+      top: -2px;
+      background: currentColor;
+      transform-origin: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="scan"></div>
+  </div>
+</body>
+</html>

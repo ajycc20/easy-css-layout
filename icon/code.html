@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Code</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #dff9fb;
+    }
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .code {
+      color: #130f40;
+      position: relative;
+      width: 10px;
+      height: 10px;
+      transform: rotate(-45deg);
+    }
+    .code::before,
+    .code::after {
+      content: '';
+      position: absolute;
+      color: #130f40;
+      width: 6px;
+      height: 6px;
+      border: 1px solid currentColor;
+    }
+    .code::before {
+      top: -1px;
+      left: -1px;
+      border-bottom: none;
+      border-right: none;
+    }
+    .code::after {
+      bottom: -1px;
+      right: -1px;
+      border-top: none;
+      border-left: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="code"></div>
+  </div>
+</body>
+</html>
