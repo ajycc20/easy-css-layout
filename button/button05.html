@@ -38,23 +38,25 @@
       0 0 16px #2980b9;
     }
     .container input[type="checkbox"]:checked ~ .power {
-      box-shadow: 0 0 1px #7f87f1,
-      0 0 3px #3498db,
-      2px 1px 5px #2276ee,
-      inset 0 0 5px #3498db;
-      border: solid #7f87f1;
+      box-shadow: 0 0 1px 1px rgba(38, 71, 66, 0.849),
+                  0 0 6px #b7a9fa,
+                  0 0 9px #7f87f1;
+      border-left: 1px solid #7f87f1;
+      border-right: 1px solid #7f87f1;
+      border-bottom: 1px solid #7f87f1;
+      border-top: 1px solid transparent;
       color: #b7a9fa;
     }
     .power {
       position: absolute;
       top: 58px;
-      left: 1px;
+      left: 0px;
       width: 15px;
       height: 15px;
       color: #000;
-      border: solid #000;
+      border: 1px solid #000;
+      border-top: 1px solid transparent;
       border-radius: 50%;
-      border-top: none;
       transform: translate(19px, -40px);
       z-index: -1;
     }

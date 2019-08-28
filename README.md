@@ -83,6 +83,10 @@ Just for practice & backups
 |Scan|[scan](https://github.com/ajycc20/easy-css-layout/blob/master/icon/scan.html)|[scan](https://ajycc20.github.io/easy-css-layout/icon/scan.html)|![scan.jpg](https://img2.ajycc20.xyz/images/2019/08/27/fCnCQGsSgE0xwVwT.jpg)|
 |Scan02|[scan02](https://github.com/ajycc20/easy-css-layout/blob/master/icon/scan02.html)|[scan02](https://ajycc20.github.io/easy-css-layout/icon/scan02.html)|![scan02.jpg](https://img2.ajycc20.xyz/images/2019/08/27/vZd4JgASyBMMD2Iv.jpg)|
 |Code|[code](https://github.com/ajycc20/easy-css-layout/blob/master/icon/code.html)|[code](https://ajycc20.github.io/easy-css-layout/icon/code.html)|![change02.jpg](https://img2.ajycc20.xyz/images/2019/08/27/lQ4o1LJQWIC4pJX5.jpg)|
+|Moon-dark|[moon-dark](https://github.com/ajycc20/easy-css-layout/blob/master/icon/moon-dark.html)|[moon-dark](https://ajycc20.github.io/easy-css-layout/icon/moon-dark.html)|![moon-dark.jpg](https://img2.ajycc20.xyz/images/2019/08/28/ZMEjMh4pc04a7aBw.jpg)|
+|Moon-light|[moon-light](https://github.com/ajycc20/easy-css-layout/blob/master/icon/moon-light.html)|[moon-light](https://ajycc20.github.io/easy-css-layout/icon/moon-light.html)|![moon-light.jpg](https://img2.ajycc20.xyz/images/2019/08/28/1kaKFFxybMYsLuSp.jpg)|
+|Wifi|[wifi](https://github.com/ajycc20/easy-css-layout/blob/master/icon/wifi.html)|[wifi](https://ajycc20.github.io/easy-css-layout/icon/wifi.html)|![wifi.jpg](https://img2.ajycc20.xyz/images/2019/08/28/fmJlgKWBlowlLeIv.jpg)|
+|Link|[link](https://github.com/ajycc20/easy-css-layout/blob/master/icon/link.html)|[link](https://ajycc20.github.io/easy-css-layout/icon/link.html)|![link.jpg](https://img2.ajycc20.xyz/images/2019/08/28/EUwwFDvV4W96NWYH.jpg)|
 
 ----------------------
 

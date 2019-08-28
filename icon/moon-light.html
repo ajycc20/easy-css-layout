@@ -4,12 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Power</title>
+  <title>Moon Light</title>
   <style>
     body {
       margin: 0;
       padding: 0;
-      background: #fff;
+      background: #2f3640;
     }
     .container {
       position: absolute;
@@ -17,39 +17,30 @@
       left: 50%;
       transform: translate(-50%, -50%);
     }
-    .power {
+    .moon {
       position: relative;
-      width: 13px;
-      height: 13px;
-      color: #000;
-      border: 1px solid currentColor;
-      border-radius: 50%;
-    }
-    .power::before {
-      content: '';
-      position: absolute;
-      top: -3px;
-      left: 3px;
-      width: 7px;
-      height: 7px;
+      width: 16px;
+      height: 16px;
       color: #fff;
       background: currentColor;
+      border-radius: 50%;
     }
-    .power::after {
+    .moon::before {
       content: '';
       position: absolute;
-      top: -3px;
-      left: 6px;
-      width: 1px;
-      height: 7px;
-      color: #000;
+      width: 10px;
+      height: 10px;
+      color: #2f3640;
       background: currentColor;
+      top: 3px;
+      left: 8px;
+      border-radius: 50%;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <div class="power"></div>
-  </div>
+    <div class="moon"></div>
+  </div>  
 </body>
 </html>

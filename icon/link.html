@@ -4,12 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Power</title>
+  <title>Link</title>
   <style>
     body {
       margin: 0;
       padding: 0;
-      background: #fff;
+      background: #f5f6fa;
     }
     .container {
       position: absolute;
@@ -17,39 +17,38 @@
       left: 50%;
       transform: translate(-50%, -50%);
     }
-    .power {
+    .link {
       position: relative;
-      width: 13px;
-      height: 13px;
-      color: #000;
-      border: 1px solid currentColor;
-      border-radius: 50%;
-    }
-    .power::before {
-      content: '';
-      position: absolute;
-      top: -3px;
-      left: 3px;
       width: 7px;
-      height: 7px;
-      color: #fff;
-      background: currentColor;
+      height: 1px;
+      background: #000;
+      transform: rotate(-45deg);
     }
-    .power::after {
+    .link::before {
       content: '';
       position: absolute;
+      width: 7px;
+      height: 5px;
       top: -3px;
-      left: 6px;
-      width: 1px;
-      height: 7px;
-      color: #000;
-      background: currentColor;
+      left: -6px;
+      border: 1px solid currentColor;
+      border-radius: 2px;
+    }
+    .link::after {
+      content: '';
+      position: absolute;
+      width: 7px;
+      height: 5px;
+      top: -3px;
+      left: 4px;
+      border: 1px solid currentColor;
+      border-radius: 2px;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <div class="power"></div>
+    <div class="link"></div>
   </div>
 </body>
 </html>
