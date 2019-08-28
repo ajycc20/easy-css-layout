@@ -23,7 +23,7 @@ Just for practice & backups
 
 ----------------
 
-## NavBar
+## [NavBar](https://github.com/ajycc20/easy-css-layout/tree/master/navbar)
 
 |Name|Source|Demo|Preview|
 |:---:|:---:|:---:|:---:|
@@ -33,7 +33,7 @@ Just for practice & backups
 
 -------------------
 
-## SearchBox
+## [SearchBox](https://github.com/ajycc20/easy-css-layout/tree/master/searchbox)
 
 |Name|Source|Demo|Preview|
 |:---:|:---:|:---:|:---:|
@@ -43,7 +43,7 @@ Just for practice & backups
 
 ---------------------
 
-## Button
+## [Button](https://github.com/ajycc20/easy-css-layout/tree/master/button)
 
 |Name|Source|Demo|Preview|
 |:---:|:---:|:---:|:---:|
@@ -57,7 +57,7 @@ Just for practice & backups
 
 ----------------------
 
-## Pagination
+## [Pagination](https://github.com/ajycc20/easy-css-layout/tree/master/pagination)
 
 |Name|Source|Demo|Preview|
 |:---:|:---:|:---:|:---:|
@@ -67,7 +67,7 @@ Just for practice & backups
 
 ----------------------
 
-## Icon
+## [Icon](https://github.com/ajycc20/easy-css-layout/tree/master/icon)
 
 |Name|Source|Demo|Preview|
 |:---:|:---:|:---:|:---:|
@@ -90,7 +90,7 @@ Just for practice & backups
 
 ----------------------
 
-## Loading
+## [Loading](https://github.com/ajycc20/easy-css-layout/tree/master/loading)
 
 |Name|Source|Demo|Preview|
 |:---:|:---:|:---:|:---:|
@@ -100,7 +100,7 @@ Just for practice & backups
 
 ----------------------
 
-## Switch
+## [Switch](https://github.com/ajycc20/easy-css-layout/tree/master/switch)
 
 |Name|Source|Demo|Preview|
 |:---:|:---:|:---:|:---:|
@@ -111,7 +111,7 @@ Just for practice & backups
 
 ----------------------
 
-## Input
+## [Input](https://github.com/ajycc20/easy-css-layout/tree/master/input)
 
 |Name|Source|Demo|Preview|
 |:---:|:---:|:---:|:---:|
@@ -119,7 +119,7 @@ Just for practice & backups
 
 ----------------------
 
-## Container
+## [Container](https://github.com/ajycc20/easy-css-layout/tree/master/container)
 
 |Name|Source|Demo|Preview|
 |:---:|:---:|:---:|:---:|
