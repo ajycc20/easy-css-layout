@@ -9,6 +9,7 @@
   - [Switch](#switch)
   - [Input](#input)
   - [Container](#container)
+  - [Unclassified](#unclassified)
 
 easy-css-layout
 ===============
@@ -130,3 +131,11 @@ Just for practice & backups
 |Container05|[container05](https://github.com/ajycc20/easy-css-layout/blob/master/container/container05.html)|[container05](https://ajycc20.github.io/easy-css-layout/container/container05.html)|![container05.jpg](https://img2.ajycc20.xyz/images/2019/08/26/IB8iCFXFlEyMVoeN.jpg)|
 |Container06|[container06](https://github.com/ajycc20/easy-css-layout/blob/master/container/container06.html)|[container06](https://ajycc20.github.io/easy-css-layout/container/container06.html)|![container06.jpg](https://img2.ajycc20.xyz/images/2019/08/26/PSTTQVMYF5IKjXLW.jpg)|
 |Container07|[container07](https://github.com/ajycc20/easy-css-layout/blob/master/container/container07.html)|[container07](https://ajycc20.github.io/easy-css-layout/container/container07.html)|![container07.jpg](https://img2.ajycc20.xyz/images/2019/08/26/TTO1Fpf12YTSuQYZ.jpg)|
+
+----------------------
+
+## [Unclassified](https://github.com/ajycc20/easy-css-layout/tree/master/unclassified)
+
+|Name|Source|Demo|Preview|
+|:---:|:---:|:---:|:---:|
+|Cube|[cube](https://github.com/ajycc20/easy-css-layout/blob/master/unclassified/cube.html)|[cube](https://ajycc20.github.io/easy-css-layout/unclassified/cube.html)|![cube.jpg](https://img2.ajycc20.xyz/images/2019/08/28/m4Wd46WINym4mkOM.jpg)|

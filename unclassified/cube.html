@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Cube</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #ecf0f1;
+    }
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .cube {
+      position: relative;
+      font-size: 60px;
+      width: 120px;
+      height: 120px;
+      transform-style: preserve-3d;
+      transform: rotateX(-15deg) rotateY(-15deg);
+    }
+    .faces {
+      position: absolute;
+      width: 120px;
+      height: 120px;
+      background: rgba(22, 145, 175, 0.7);
+      border: 1px solid rgba(200, 244, 100, .5);
+      color: #fff;
+      text-align: center;
+      line-height: 120px;
+    }
+    .front {
+      transform: translateZ(60px);
+    }
+    .back {
+      transform: translateZ(-60px);
+    }
+    .left {
+      transform: rotateY(-90deg) translateZ(60px);
+    }
+    .right {
+      transform: rotateY(90deg) translateZ(60px);
+    }
+    .top {
+      transform: rotateX(90deg) translateZ(60px);
+    }
+    .bottom {
+      transform: rotateX(-90deg) translateZ(60px);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="cube">
+      <div class="faces front">1</div>
+      <div class="faces back">6</div>
+      <div class="faces left">2</div>
+      <div class="faces right">5</div>
+      <div class="faces top">3</div>
+      <div class="faces bottom">4</div>
+    </div>
+  </div>
+</body>
+</html>
