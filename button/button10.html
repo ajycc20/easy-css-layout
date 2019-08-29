@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Button 10</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+    }
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    a {
+      text-decoration: none;
+      color: #fff;
+      padding: 10px 20px;
+      font-size: 22px;
+      font-family: sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      border: none;
+      background: #ff6348;
+      border-radius: 8px;
+      display: block;
+    }
+    .waves {
+      position: relative;
+      overflow: hidden;
+    }
+    .waves::after {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background: radial-gradient(circle, rgb(90, 62, 62) 20%, transparent 20%);
+      transform: scale(5);
+      opacity: 0;
+      transition: .5s;
+    }
+    .waves:active::after {
+      transform: scale(0);
+      opacity: .5;
+      transition: 0s;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="#" class="btn waves">Button</a>
+  </div>
+</body>
+</html>

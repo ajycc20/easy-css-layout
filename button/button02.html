@@ -6,107 +6,107 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Button 02</title>
   <style>
-  body {
-    margin: 0;
-    padding: 0;
-    background: #34495e;
-    font-family: sans-serif;
-  }
-  .container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  a {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    padding: 20px 40px;
-    color: #3498db;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 26px;
-    text-decoration: none;
-    box-shadow: 0 0 40px rgba(0, 0, 0, .5);
-    overflow: hidden;
-  }
-  a::before {
-    content: '';
-    position: absolute;
-    top: 2px;
-    left: 2px;
-    bottom: 2px;
-    width: 50%;
-    background: rgba(255, 255, 255, .2);
-  }
-  a:hover span:nth-child(1) {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(to right, #34495e,#3498db);
-    animation: span1 2s linear infinite;
-  }
-  @keyframes span1 {
-    0% {
-      transform: translateX(-100%);
+    body {
+      margin: 0;
+      padding: 0;
+      background: #34495e;
+      font-family: sans-serif;
     }
-    100% {
-      transform: translateX(100%);
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
-  }
-  a:hover span:nth-child(2) {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 2px;
-    height: 100%;
-    background: linear-gradient(to bottom, #34495e,#3498db);
-    animation: span2 2s linear infinite;
-  }
-  @keyframes span2 {
-    0% {
-      transform: translateY(-100%);
+    a {
+      position: absolute;
+      transform: translate(-50%, -50%);
+      padding: 20px 40px;
+      color: #3498db;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 26px;
+      text-decoration: none;
+      box-shadow: 0 0 40px rgba(0, 0, 0, .5);
+      overflow: hidden;
     }
-    100% {
-      transform: translateY(100%);
+    a::before {
+      content: '';
+      position: absolute;
+      top: 2px;
+      left: 2px;
+      bottom: 2px;
+      width: 50%;
+      background: rgba(255, 255, 255, .2);
     }
-  }
-  a:hover span:nth-child(3) {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(to left, #34495e,#3498db);
-    animation: span3 2s linear infinite;
-  }
-  @keyframes span3 {
-    0% {
-      transform: translate(100%);
+    a:hover span:nth-child(1) {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background: linear-gradient(to right, #34495e,#3498db);
+      animation: span1 2s linear infinite;
     }
-    100% {
-      transform: translateX(-100%);
+    @keyframes span1 {
+      0% {
+        transform: translateX(-100%);
+      }
+      100% {
+        transform: translateX(100%);
+      }
     }
-  }
-  a:hover span:nth-child(4) {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 2px;
-    height: 100%;
-    background: linear-gradient(to top, #34495e,#3498db);
-    animation: span4 2s linear infinite;
-  }
-  @keyframes span4 {
-    0% {
-      transform: translateY(100%);
+    a:hover span:nth-child(2) {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 2px;
+      height: 100%;
+      background: linear-gradient(to bottom, #34495e,#3498db);
+      animation: span2 2s linear infinite;
     }
-    100% {
-      transform: translateY(-100%);
+    @keyframes span2 {
+      0% {
+        transform: translateY(-100%);
+      }
+      100% {
+        transform: translateY(100%);
+      }
     }
-  }
+    a:hover span:nth-child(3) {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 100%;
+      height: 2px;
+      background: linear-gradient(to left, #34495e,#3498db);
+      animation: span3 2s linear infinite;
+    }
+    @keyframes span3 {
+      0% {
+        transform: translate(100%);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+    a:hover span:nth-child(4) {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 2px;
+      height: 100%;
+      background: linear-gradient(to top, #34495e,#3498db);
+      animation: span4 2s linear infinite;
+    }
+    @keyframes span4 {
+      0% {
+        transform: translateY(100%);
+      }
+      100% {
+        transform: translateY(-100%);
+      }
+    }
   </style>
 </head>
 <body>

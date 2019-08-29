@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Button 09</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+    }
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    a {
+      position: relative;
+      text-decoration: none;
+      color: #000;
+      border-top: 1px solid currentColor;
+      border-bottom: 1px solid currentColor;
+      padding: 10px 20px;
+      text-transform: uppercase;
+      font-size: 22px;
+      font-family: sans-serif;
+      letter-spacing: 4px;
+      transition: border .5s ease-in-out,
+                  padding .5s ease-in-out,
+                  letter-spacing .5s ease-in-out;
+    }
+    a:hover {
+      letter-spacing: 16px;
+      padding: 10px 40px;
+    }
+    a::before {
+      content: '';
+      position: absolute;
+      width: 20px;
+      height: 100%;
+      color: #ff0012;
+      top: 0;
+      left: 20px;
+      background: currentColor;
+      transform: skewX(-40deg);
+      z-index: -1;
+      opacity: 0;
+      transition: .5s;
+    }
+    a:hover::before {
+      animation: hoverred .5s 1 linear;
+    }
+    @keyframes hoverred {
+      0% {
+        opacity: 0;
+      }
+      50% {
+        opacity: 0.5;
+      }
+      100% {
+        opacity: 0;
+        left: calc(100% - 20px);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="#" class="btn">Button</a>
+  </div>
+</body>
+</html>
