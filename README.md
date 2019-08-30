@@ -1,5 +1,5 @@
 - [easy-css-layout](#easy-css-layout)
-  - [Prerequisite](#prerequisite)
+  - [Foreword](#foreword)
   - [NavBar](#navbar)
   - [SearchBox](#searchbox)
   - [Button](#button)
@@ -15,13 +15,15 @@
 easy-css-layout
 ===============
 
-Prerequisite
+## Foreword
 ----------------
 
 Just for practice & backups
 
-1.  `You can view the source code in the Source column.`
-2.  `At the same time, you can view the demo in the Demo column.`
+> If you want to practice by this demo
+
+* First you need to view the demo in the Demo column & Writedown your code by yourself
+* If you do not archieve this features, you can view the source column
 
 ----------------
 
