@@ -36,7 +36,7 @@
       width: 1px;
       background-color: currentColor;
     }
-    input[type="text"] {
+    .input {
       position: relative;
       top: -3px;
       left: -2px;
@@ -51,7 +51,7 @@
       border-bottom: 1px solid #beb1b1;
       transition: border-color .2s;
     }
-    input[type="text"]:focus ~ .underline {
+    .input:focus ~ .underline {
       border-bottom: 1px solid #8e44ad;
       animation: input-focus .3s linear 1;
     }
@@ -63,7 +63,7 @@
         transform: scaleX(1) translate(-2px, -4px);
       }
     }
-    input[type="text"]:focus ~ .label {
+    .input:focus ~ .label {
       transform: translate(0px, -50px);
       color: #8e44ad;
     }
@@ -82,15 +82,29 @@
       transition: .3s;
       z-index: -1;
     }
+    .labelup {
+      transform: translate(0px, -50px);
+      color: #8e44ad;
+    }
   </style>
 </head>
 <body>
   <div class="container">
     <div class="search-icon">
     </div>
-    <input type="text">
+    <input type="text" class="input" id="input" value="">
     <span class="underline"></span>
     <label class="label">Title</label>
   </div>
+  <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+    $('#input').focus(function() {
+      if(this.value != '') {
+        $('.label').toggleClass('labelup')
+      } else {
+        $('.label').toggleClass('labelup')
+      }
+    })
+  </script>
 </body>
 </html>
