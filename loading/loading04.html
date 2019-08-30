@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Loading 04</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #2d3436;
+      font-family: sans-serif;
+    }
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .loading {
+      position: relative;
+      width: 60px;
+      height: 60px;
+    }
+    .one, .two {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      color: #6c5ce7;
+      background: currentColor;
+      border-radius: 50%;
+      opacity: .7;
+      animation: circle 2s infinite ease-in-out;
+      box-shadow: 0 0 20px #fff;
+    }
+    .two {
+      animation-delay: 1s;
+    }
+    @keyframes circle {
+      0%, 100% {
+        transform: scale(0);
+      }
+      50% {
+        transform: scale(1);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="loading">
+      <span class="one"></span>
+      <span class="two"></span>
+    </div>
+  </div>
+</body>
+</html>

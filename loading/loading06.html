@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Loading 06</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #bdc3c7;
+      font-family: sans-serif;
+    }
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .loading {
+      position: relative;
+      width: 80px;
+      height: 80px;
+    }
+    .load {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 50%;
+      border: 2px solid transparent;
+      border-top: 2px solid currentColor;
+      border-bottom: 2px solid currentColor;
+      animation: cirotate 2s infinite;
+    }
+    .cir1 {
+      width: 40px;
+      height: 40px;
+      color: #6c5ce7;
+    }
+    .cir2 {
+      width: 50px;
+      height: 50px;
+      color: #d63031;
+      animation-delay: .2s;
+    }
+    .cir3 {
+      width: 60px;
+      height: 60px;
+      color: #ffeaa7;
+      animation-delay: .4s;
+    }
+    .cir4 {
+      width: 70px;
+      height: 70px;
+      color: #00b894;
+      animation-delay: .6s;
+    }
+    @keyframes cirotate {
+      0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+      }
+      100% {
+        transform: translate(-50%, -50%) rotate(-360deg);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="loading">
+      <div class="load cir1"></div>
+      <div class="load cir2"></div>
+      <div class="load cir3"></div>
+      <div class="load cir4"></div>
+    </div>
+  </div>
+</body>
+</html>

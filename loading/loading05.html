@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Loading 05</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #2d3436;
+      font-family: sans-serif;
+    }
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .loading {
+      position: relative;
+      width: 120px;
+      height: 120px;
+    }
+    .loading .row {
+      display: flex;
+      width: 100%;
+      height: calc(100% / 3);
+    }
+    .row span {
+      width: 100%;
+      height: 100%;
+      color: #6c5ce7;
+      background: currentColor;
+      transform: scale(0);
+      transform-origin: bottom right;
+    }
+    .row:nth-child(1) span:nth-child(1) {
+      animation: span1 1s infinite linear;
+    }
+    @keyframes span1 {
+      0% {
+        transform: scale(1);
+      }
+      40% {
+        transform: scale(0);
+      }
+    }
+    .row:nth-child(1) span:nth-child(2),
+    .row:nth-child(2) span:nth-child(1) {
+      animation: span2 1s infinite linear;
+    }
+    @keyframes span2 {
+      0% {
+        transform: scale(1);
+      }
+      55% {
+        transform: scale(0);
+      }
+    }
+    .row:nth-child(1) span:nth-child(3),
+    .row:nth-child(2) span:nth-child(2),
+    .row:nth-child(3) span:nth-child(1) {
+      animation: span3 1s infinite linear;
+    }
+    @keyframes span3 {
+      0% {
+        transform: scale(1);
+      }
+      70% {
+        transform: scale(0);
+      }
+    }
+    .row:nth-child(2) span:nth-child(3),
+    .row:nth-child(3) span:nth-child(2) {
+      animation: span4 1s infinite linear;
+    }
+    @keyframes span4 {
+      0% {
+        transform: scale(1);
+      }
+      85% {
+        transform: scale(0);
+      }
+    }
+    .row:nth-child(3) span:nth-child(3) {
+      animation: span5 1s infinite linear;
+    }
+    @keyframes span5 {
+      0% {
+        transform: scale(1);
+      }
+      100% {
+        transform: scale(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="loading">
+      <div class="row">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="row">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="row">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

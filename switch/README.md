@@ -1,4 +1,4 @@
-## Switch
+## [Switch](https://github.com/ajycc20/easy-css-layout/tree/master/switch)
 
 |Name|Source|Demo|Preview|
 |:---:|:---:|:---:|:---:|

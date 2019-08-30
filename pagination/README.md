@@ -1,4 +1,4 @@
-## Pagination
+## [Pagination](https://github.com/ajycc20/easy-css-layout/tree/master/pagination)
 
 |Name|Source|Demo|Preview|
 |:---:|:---:|:---:|:---:|
