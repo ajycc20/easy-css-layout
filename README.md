@@ -1,4 +1,5 @@
 - [easy-css-layout](#easy-css-layout)
+  - [Demo](#demo)
   - [Foreword](#foreword)
   - [NavBar](#navbar)
   - [SearchBox](#searchbox)
@@ -14,6 +15,10 @@
 
 easy-css-layout
 ===============
+
+## Demo
+
+[View the Demo Page](https://ajycc20.github.io/easy-css-layout/index.html)
 
 Foreword
 ----------------
