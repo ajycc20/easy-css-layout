@@ -17,7 +17,7 @@
       left: 50%;
       transform: translate(-50%, -50%);
     }
-    input[type="checkbox"] {
+    .input {
       position: relative;
       width: 100px;
       height: 50px;
@@ -28,10 +28,10 @@
       box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
       transition: .5s;
     }
-    input:checked[type="checkbox"] {
+    .input:checked {
       background: #3498db;
     }
-    input[type="checkbox"]::before {
+    .input::before {
       content: '';
       position: absolute;
       background: #fff;
@@ -43,14 +43,14 @@
       transform: scale(1.05);
       transition: .5s;
     }
-    input:checked[type="checkbox"]::before {
+    .input:checked:before {
       left: 50px;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <input type="checkbox">
+    <input type="checkbox" class="input">
   </div>
 </body>
 </html>

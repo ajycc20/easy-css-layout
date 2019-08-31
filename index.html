@@ -198,62 +198,60 @@
            'moon-dark', 'moon-light', 'power', 'scan', 'scan02', 'search', 'star-five', 'upload', 'wifi']
           for (let i = 0; i < fileArr.length; i++) {
             let tagArea = $('.' + type + ' ul') // 标签域
-            let list = $('<li>')
-            let frames = $('<iframe>')
-            let link = $('<a>')
-            let span = $('<span>')
-            let dataSrc = 'https://ajycc20.github.io/easy-css-layout/' // iframe src
-            let hrefSrc = 'https://github.com/ajycc20/easy-css-layout/blob/master/' // href src
-            
-            // iframes
-            frames.attr('src', dataSrc + type + '/' + fileArr[i] + '.html')
-            frames.attr('frameborder', '0')
-            // links
-            link.attr('href', hrefSrc + type + '/' + fileArr[i] + '.html')
-            link.attr('target', '_blank')
-            // span
-            span.text(fileArr[i])
-            
-            // span -> link
-            link.append(span)
-            // iframe link -> li tags
-            list.append(frames, link)
-            // li -> ul
-            tagArea.append(list)
+            let listArea // 模板字符串
+            // 本地环境
+            if (location.hostname == '127.0.0.1') {
+              listArea = `
+              <li>
+                <iframe src="./icon/${fileArr[i]}.html" frameborder="0"></iframe>
+                <a href="./icon/${fileArr[i]}.html" target="_blank">
+                  <span>${fileArr[i]}</span>
+                </a>
+              </li>`
+
+            // github page
+            } else if (location.hostname == 'ajycc20.github.io') {
+              listArea = `
+              <li>
+                <iframe src="https://ajycc20.github.io/easy-css-layout/icon/${fileArr[i]}.html" frameborder="0"></iframe>
+                <a href="https://github.com/ajycc20/easy-css-layout/blob/master/icon/${fileArr[i]}.html" target="_blank">
+                  <span>${fileArr[i]}</span>
+                </a>
+              </li>`
+            }
+
+            tagArea.append(listArea)
           }
         } else {
           for (let i = 1; i <= length; i++) {
             let tagArea = $('.' + type + ' ul') // 标签域
-            let list = $('<li>')
-            let frames = $('<iframe>')
-            let link = $('<a>')
-            let span = $('<span>')
-            let dataSrc = 'https://ajycc20.github.io/easy-css-layout/' // iframe src
-            let hrefSrc = 'https://github.com/ajycc20/easy-css-layout/blob/master/' // href src
-
+            let numStr = '' // add 0
             if (i < 10) {
-              // 构造iframe
-              frames.attr('src', dataSrc + type + '/' + type + '0' + i + '.html')
-              frames.attr('frameborder', '0')
-              // 构造a
-              link.attr('href', hrefSrc + type + '/' + type + '0' + i + '.html')
-              link.attr('target', '_blank')
-              // 构造 span
-              span.text(type + ' ' + '0' + i)
+              numStr = '0' + i
             } else {
-              // 构造iframe
-              frames.attr('src', dataSrc + type + '/' + type + i + '.html')
-              frames.attr('frameborder', '0')
-              // 构造a
-              link.attr('href', hrefSrc + type + '/' + type + i + '.html')
-              link.attr('target', '_blank')
-              // 构造 span
-              span.text(type + ' ' + i)
+              numStr = '' + i
             }
-
-            link.append(span)
-            list.append(frames, link)
-            tagArea.append(list)
+            let listArea // 模板字符串
+            // 本地环境
+            if (location.hostname == '127.0.0.1') {
+              listArea = `
+              <li>
+                <iframe src="./${type}/${type + numStr}.html" frameborder="0"></iframe>
+                <a href="./${type}/${type + numStr}.html" target="_blank">
+                  <span>${type} ${numStr}</span>
+                </a>
+              </li>`
+            // github page
+            } else if (location.hostname == 'ajycc20.github.io') {
+              listArea = `
+              <li>
+                <iframe src="https://ajycc20.github.io/easy-css-layout/${type}/${type + numStr}.html" frameborder="0"></iframe>
+                <a href="https://github.com/ajycc20/easy-css-layout/blob/master/${type}/${type + numStr}.html" target="_blank">
+                  <span>${type} ${numStr}</span>
+                </a>
+              </li>`
+            }
+            tagArea.append(listArea)
           }
         }
       }
@@ -263,7 +261,7 @@
       // loading type
       addFrames('loading', 7)
       // switch type
-      addFrames('switch', 4)
+      addFrames('switch', 6)
       // icon type
       addFrames('icon', 16)
       // navbar type

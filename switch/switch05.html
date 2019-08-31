@@ -4,12 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Switch 03</title>
+  <title>Switch 05</title>
   <style>
     body {
       margin: 0;
       padding: 0;
-      background: #000;
+      background: #e0e3e7;
     }
     .container {
       position: absolute;
@@ -19,49 +19,48 @@
     }
     .input {
       position: relative;
-      width: 80px;
-      height: 36px;
-      -webkit-appearance: none;
-      border-radius: 18px;
+      width: 100px;
+      height: 50px;
       outline: none;
-      background: none;
-      box-shadow: 0 0 1px #eeeeee;
-      transition: .5s;
+      font-size: 20px;
+      font-family: sans-serif;
+      -webkit-appearance: none;
+      background: #000;
+      box-shadow: 0 0 0 4px #000;
+      border-radius: 4px;
+      overflow: hidden;
     }
     .input::before {
-      content: '';
+      content: 'ON';
       position: absolute;
-      width: 26px;
-      height: 26px;
-      top: 5px;
-      left: 4px;
-      box-shadow: 0 0 2px #eeeeee;
-      border-radius: 50%;
+      color: #fff;
+      top: 0px;
+      left: -55px;
+      height: 50px;
+      line-height: 50px;
+      text-align: center;
+      width: 55px;
+      background: #00ff00;
       transition: .5s;
     }
     .input::after {
-      content: 'FF';
+      content: 'OFF';
       position: absolute;
-      top: 5px;
-      right: -30px;
-      color: #4d3a3a;
-      font-size: 22px;
+      color: #fff;
+      top: 0px;
+      right: 0px;
+      height: 50px;
+      line-height: 50px;
+      text-align: center;
+      width: 55px;
+      background: #ff0000;
       transition: .5s;
     }
-    .input:checked {
-      box-shadow: 0 0 0 1px #eeeeee;
-    }
     .input:checked::before {
-      left: 50px;
-      background: #eeeeee;
+      left: 0px;
     }
-    .input:checked:after {
-      content: 'N';
-      position: absolute;
-      top: 5px;
-      right: -20px;
-      color: #eeeeee;
-      font-size: 22px;
+    .input:checked::after {
+      right: -55px;
     }
   </style>
 </head>

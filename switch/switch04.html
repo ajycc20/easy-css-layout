@@ -17,7 +17,7 @@
       left: 50%;
       transform: translate(-50%, -50%);
     }
-    input[type="checkbox"] {
+    .input {
       position: relative;
       width: 140px;
       height: 36px;
@@ -28,7 +28,7 @@
       box-shadow: 0 0 0 4px #424040;
       transition: .5s;
     }
-    input[type="checkbox"]::before {
+    .input::before {
       content: '';
       position: absolute;
       width: 68px;
@@ -40,7 +40,7 @@
       transition: .5s;
       background: linear-gradient(180deg, #646767, #3f3838, #272a2c);
     }
-    input[type="checkbox"]::after {
+    .input::after {
       content: '';
       position: absolute;
       width: 4px;
@@ -51,17 +51,17 @@
       background: linear-gradient(#262828, #343131, #565b60);
       transition: .5s;
     }
-    input[type="checkbox"]:checked {
+    .input:checked {
       background: #40cfdf;
       box-shadow: inset 0 0 5px #3d3131,
                   inset 0 0 15px #2860a5,
                   inset 0 0 20px #377ec9,
                   0 0 0 4px #424040;
     }
-    input[type="checkbox"]:checked::before {
+    .input:checked::before {
       left: 71px;
     }
-    input[type="checkbox"]:checked::after {
+    .input:checked::after {
       left: 130px;
       box-shadow: inset 0 0 6px #5e89b7,
                   0 0 2px #61a9e7;
@@ -70,7 +70,7 @@
 </head>
 <body>
   <div class="container">
-    <input type="checkbox" name="">
+    <input type="checkbox" class="input">
   </div>
 </body>
 </html>
