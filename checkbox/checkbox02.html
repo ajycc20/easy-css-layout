@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Checkbox 02</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #e0e3e7;
+    }
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .input {
+      position: relative;
+      color: #fff;
+      background: currentColor;
+      width: 20px;
+      height: 20px;
+      border: 1px solid #c9b5b5;
+      border-radius: 50%;
+      outline: none;
+      -webkit-appearance: none;
+      box-sizing: border-box;
+      transition: .3s;
+    }
+    .input::before {
+      content: '';
+      position: absolute;
+      width: 25%;
+      height: 50%;
+      color: #fff;
+      border: none;
+      border-right: 1px solid currentColor;
+      border-bottom: 1px solid currentColor;
+      transform: translate(6px, 2px) rotate(45deg);
+    }
+    .input:checked {
+      color: #1e90ff;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <input type="checkbox" class="input">
+  </div>
+</body>
+</html>

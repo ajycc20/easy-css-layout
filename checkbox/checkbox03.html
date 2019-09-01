@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Checkbox 03</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #e0e3e7;
+    }
+    .container {
+      position: absolute;
+      top: calc(50% - 20px);
+      left: calc(50% - 35px);
+      transform: translate(-50%, -50%);
+    }
+    .checkbox-button {
+      position: relative;
+    }
+    .checkbox-button .input {
+      position: absolute;
+      opacity: 0;
+      z-index: -1;
+      -webkit-appearance: none;
+      cursor: pointer;
+      box-sizing: border-box;
+    }
+    .checkbox-button .checkbox-text {
+      position: absolute;
+      user-select: none;
+      top: 0px;
+      left: 0px;
+      width: 70px;
+      height: 40px;
+      border: 1px solid #c9b5b5;
+      border-radius: 4px;
+      font-family: sans-serif;
+      color: #646464;
+      background: #fff;
+      box-sizing: border-box;
+      transition: .4s;
+      text-align: center;
+      line-height: 40px;
+    }
+    .checkbox-button .input:checked ~ .checkbox-text {
+      color: #fff;
+      background: #1e90ff;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <label class="checkbox-button">
+      <input type="checkbox" id="input" class="input" value="文字">
+      <span class="checkbox-text">文字</span>
+    </label>
+  </div>
+</body>
+</html>
