@@ -8,6 +8,7 @@
   - [Icon](#icon)
   - [Loading](#loading)
   - [Switch](#switch)
+  - [Checkbox](#checkbox)
   - [Input](#input)
   - [Container](#container)
   - [Card](#card)
@@ -126,7 +127,14 @@ Just for practice & backups
 |Switch03|[switch03](https://github.com/ajycc20/easy-css-layout/blob/master/switch/switch03.html)|[switch03](https://ajycc20.github.io/easy-css-layout/switch/switch03.html)|![switch03.jpg](https://img2.ajycc20.xyz/images/2019/08/23/cvXOSRYjxzwsX9or.jpg)|
 |Switch04|[switch04](https://github.com/ajycc20/easy-css-layout/blob/master/switch/switch04.html)|[switch04](https://ajycc20.github.io/easy-css-layout/switch/switch04.html)|![switch04.jpg](https://img2.ajycc20.xyz/images/2019/08/23/mhX9zMUqla0BMdrk.jpg)|
 |Switch05|[switch05](https://github.com/ajycc20/easy-css-layout/blob/master/switch/switch05.html)|[switch05](https://ajycc20.github.io/easy-css-layout/switch/switch05.html)|![switch05.jpg](https://img2.ajycc20.xyz/images/2019/08/31/pHBPqHslxJkkMeeV.jpg)|
-|Switch06|[switch06](https://github.com/ajycc20/easy-css-layout/blob/master/switch/switch06.html)|[switch06](https://ajycc20.github.io/easy-css-layout/switch/switch06.html)|![switch06.jpg](https://img2.ajycc20.xyz/images/2019/08/31/HHenKypGfcWoFR0D.jpg)|
+
+----------------------
+
+## [Checkbox](https://github.com/ajycc20/easy-css-layout/tree/master/checkbox)
+
+|Name|Source|Demo|Preview|
+|:---:|:---:|:---:|:---:|
+|Checkbox01|[checkbox01](https://github.com/ajycc20/easy-css-layout/blob/master/checkbox/checkbox01.html)|[checkbox01](https://ajycc20.github.io/easy-css-layout/checkbox/checkbox01.html)|![checkbox01.jpg](https://img2.ajycc20.xyz/images/2019/08/31/HHenKypGfcWoFR0D.jpg)|
 
 ----------------------
 
