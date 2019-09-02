@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Loading 10</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #57606f;
+    }
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .loading {
+      position: relative;
+      width: 100px;
+      height: 100px;
+      background: #2f3542;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .loading .box {
+      position: absolute;
+      width: 90px;
+      height: 8px;
+    }
+    .loading .box:nth-child(1) span {
+      animation-delay: -0.1875s;
+    }
+    .loading .box:nth-child(2) {
+      transform: rotate(22.5deg);
+    }
+    .loading .box:nth-child(2) span {
+      animation-delay: -0.175s;
+    }
+    .loading .box:nth-child(3) {
+      transform: rotate(45deg);
+    }
+    .loading .box:nth-child(3) span {
+      animation-delay: -0.1625s;
+    }
+    .loading .box:nth-child(4) {
+      transform: rotate(67.5deg);
+    }
+    .loading .box:nth-child(4) span {
+      animation-delay: -0.15s;
+    }
+    .loading .box:nth-child(5) {
+      transform: rotate(90deg);
+    }
+    .loading .box:nth-child(5) span {
+      animation-delay: -0.9375s;
+    }
+    .loading .box:nth-child(6) {
+      transform: rotate(112.5deg);
+    }
+    .loading .box:nth-child(6) span {
+      animation-delay: -0.925s;
+    }
+    .loading .box:nth-child(7) {
+      transform: rotate(135deg);
+    }
+    .loading .box:nth-child(7) span {
+      animation-delay: -0.9125s;
+    }
+    .loading .box:nth-child(8) {
+      transform: rotate(157.5deg);
+    }
+    .loading .box:nth-child(8) span {
+      animation-delay: -0.9s;
+    }
+    .loading .box span {
+      width: 8px;
+      height: 8px;
+      background: #1e90ff;
+      position: absolute;
+      border-radius: 50%;
+      animation: load 1s linear infinite alternate;
+    }
+    @keyframes load {
+      0% {
+        left: 0px;
+      }
+      50% {
+        left: 50%;
+      }
+      100% {
+        left: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="loading">
+      <div class="box"><span></span></div>
+      <div class="box"><span></span></div>
+      <div class="box"><span></span></div>
+      <div class="box"><span></span></div>
+      <div class="box"><span></span></div>
+      <div class="box"><span></span></div>
+      <div class="box"><span></span></div>
+      <div class="box"><span></span></div>
+    </div>
+  </div>
+</body>
+</html>
