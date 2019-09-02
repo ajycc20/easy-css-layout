@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Loading 09</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #57606f;
+    }
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .loading {
+      position: relative;
+      width: 100px;
+      height: 100px;
+      background: #2f3542;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* overflow: hidden; */
+    }
+    .loading span {
+      background: #1e90ff;
+      position: absolute;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+    }
+    .loading span:nth-child(1) {
+      transform: translate(41px, 0px);
+      animation: load1 1s linear infinite alternate;
+    }
+    @keyframes load1 {
+      0% {
+        transform: translate(41px, 0px);
+      }
+      100% {
+        transform: translate(-41px, 0px);
+      }
+    }
+    .loading span:nth-child(2) {
+      transform: translate(37px, 16px);
+      animation: load2 1s linear infinite alternate;
+    }
+    @keyframes load2 {
+      0% {
+        transform: translate(37px, 16px);
+      }
+      100% {
+        transform: translate(-37px, -16px);
+      }
+    }
+    .loading span:nth-child(3) {
+      transform: translate(27px, 29px);
+      animation: load3 1s linear infinite alternate;
+    }
+    @keyframes load3 {
+      0% {
+        transform: translate(27px, 29px);
+      }
+      100% {
+        transform: translate(-27px, -29px);
+      }
+    }
+    .loading span:nth-child(4) {
+      transform: translate(13px, 38px);
+      animation: load4 1s linear infinite alternate;
+    }
+    @keyframes load4 {
+      0% {
+        transform: translate(13px, 38px);
+      }
+      100% {
+        transform: translate(-13px, -38px);
+      }
+    }
+    .loading span:nth-child(5) {
+      transform: translate(-4px, 40px);
+      animation: load5 1s linear infinite alternate;
+      animation-delay: -0.9s;
+    }
+    @keyframes load5 {
+      0% {
+        transform: translate(-4px, 40px);
+      }
+      100% {
+        transform: translate(4px, -40px);
+      }
+    }
+    .loading span:nth-child(6) {
+      transform: translate(-20px, 35px);
+      animation: load6 1s linear infinite alternate;
+      animation-delay: -0.9125s;
+    }
+    @keyframes load6 {
+      0% {
+        transform: translate(-20px, 35px);
+      }
+      100% {
+        transform: translate(20px, -35px);
+      }
+    }
+    .loading span:nth-child(7) {
+      transform: translate(-32px, 24px);
+      animation: load7 1s linear infinite alternate;
+      animation-delay: -0.925s;
+    }
+    @keyframes load7 {
+      0% {
+        transform: translate(-32px, 24px);
+      }
+      100% {
+        transform: translate(32px, -24px);
+      }
+    }
+    .loading span:nth-child(8) {
+      transform: translate(-38px, 8px);
+      animation: load8 1s linear infinite alternate;
+      animation-delay: -0.9375s;
+    }
+    @keyframes load8 {
+      0% {
+        transform: translate(-38px, 8px);
+      }
+      100% {
+        transform: translate(38px, -8px);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="loading">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+</body>
+</html>
