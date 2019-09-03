@@ -56,6 +56,8 @@
       text-decoration: underline;
     }
 
+    /* 对navbar pagination searchbox input等 width足够的进行重新布局 */
+    /* CSS Start*/
     .navbar ul li,
     .pagination ul li,
     .searchbox ul li,
@@ -104,6 +106,11 @@
     .searchbox ul li iframe,
     .input ul li iframe {
       width: 100%;
+    }
+   /* CSS End*/
+   
+    .list ul li {
+      height: 400px;
     }
   </style>
 </head>
@@ -186,6 +193,15 @@
       <h3>Input</h3>
       <ul>
         <!-- input type list -->
+      </ul>
+    </div>
+
+    <hr>
+    <!-- List -->
+    <div class="list">
+      <h3>List</h3>
+      <ul>
+        <!-- list type list -->
       </ul>
     </div>
 
@@ -287,6 +303,8 @@
       addFrames('searchbox', 3)
       // input type
       addFrames('input', 1)
+      // list type
+      addFrames('list', 3)
     })
   </script>
 </body>

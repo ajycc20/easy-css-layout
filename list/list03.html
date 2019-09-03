@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>List 03</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #ecf0f1;
+      font-family: sans-serif;
+    }
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .listbox {
+      width: 280px;
+    }
+    .listbox h3 {
+      color: #fff;
+      background: #3498db;
+      padding: 10px 20px;
+      margin: 0;
+      font-size: 22px;
+      font-weight: 800;
+      border-radius: 10px 10px 0px 0px;
+    }
+    .listbox ul {
+      counter-reset: count;
+      padding: 0;
+      margin: 0;
+      position: relative;
+      background: #fff;
+      border-bottom: 20px solid #3498db;
+      border-radius: 0px 0px 10px 10px;
+    }
+    .listbox ul:hover li {
+      opacity: .2;
+    }
+    .listbox ul li::before {
+      counter-increment: count;
+      content: counter(count);
+      background: #70a1ff;
+      color: #fff;
+      border-radius: 50%;
+      position: absolute;
+      width: 16px;
+      height: 20px;
+      padding-left: 6px;
+      left: 10px;
+      transition: transform .5s;
+    }
+    .listbox ul li:hover::before {
+      background: #fff;
+      color: #70a1ff;
+    }
+    .listbox ul li {
+      list-style: none;
+      padding: 15px 20px;
+      padding-left: 40px;
+      letter-spacing: 2px;
+      background: #fff;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+      transition: .5s;
+    }
+    .listbox ul li:hover {
+      transform: scale(1.1);
+      color: #fff;
+      background: #70a1ff;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, .2);
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="listbox">
+      <h3>This is the list Title</h3>
+      <ul>
+        <li><span>List Items for this test</span></li>
+        <li><span>List Items for this test</span></li>
+        <li><span>List Items for this test</span></li>
+        <li><span>List Items for this test</span></li>
+        <li><span>List Items for this test</span></li>
+        <li><span>List Items for this test</span></li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>

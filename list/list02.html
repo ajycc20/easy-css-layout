@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>List 02</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #f39c12;
+      font-family: sans-serif;
+    }
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    ul {
+      position: relative;
+      padding: 0px;
+      width: 280px;
+      background: #ebee30;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+    }
+    ul li {
+      position: relative;
+      list-style: none;
+      padding: 10px 15px;
+      color: rgb(134, 100, 100);
+      font-size: 16px;
+      letter-spacing: 2px;
+      text-align: center;
+      cursor: pointer;
+      overflow: hidden;
+    }
+    ul li::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      background: rgba(0, 0, 0, 0);
+      transition: 1s;
+    }
+    ul li:hover::before {
+      width: 0px;
+      height: 0px;
+      transition: 0s;
+      background: rgba(0, 0, 0, 1);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <ul>
+      <li>List Items just Text</li>
+      <li>List Items just Text</li>
+      <li>List Items just Text</li>
+      <li>List Items just Text</li>
+      <li>List Items just Text</li>
+      <li>List Items just Text</li>
+      <li>List Items just Text</li>
+      <li>List Items just Text</li>
+    </ul>
+  </div>
+</body>
+</html>
