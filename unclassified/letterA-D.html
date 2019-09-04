@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Letter A-D</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #bdc3c7;
+    }
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    ul {
+      display: flex;
+      position: relative;
+    }
+    ul li {
+      list-style: none;
+      position: relative;
+      margin: 20px;
+      box-sizing: border-box;
+      width: 40px;
+      height: 40px;
+      border: 1px solid #000;
+    }
+    /* A start */
+    ul li:nth-child(1) span {
+      position: absolute;
+      width: 6px;
+      height: 1px;
+      color: #000;
+      background: currentColor;
+      top: 50%;
+      left: 50%;
+      box-sizing: border-box;
+      transform: translate(-50%, -50%);
+    }
+    ul li:nth-child(1) span::before {
+      content: '';
+      position: absolute;
+      width: 1px;
+      height: 10px;
+      color: #000;
+      top: -6px;
+      right: 0px;
+      background: currentColor;
+      transform: skewX(26deg);
+      transform-origin: center center;
+    }
+    ul li:nth-child(1) span::after {
+      content: '';
+      position: absolute;
+      width: 1px;
+      height: 10px;
+      color: #000;
+      top: -6px;
+      left: 0px;
+      background: currentColor;
+      transform: skewX(-26deg);
+      transform-origin: center center;
+    }
+    /* A end */
+    /* B start */
+    ul li:nth-child(2) span {
+      position: absolute;
+      width: 1px;
+      height: 11px;
+      color: #000;
+      background: currentColor;
+      top: 50%;
+      left: calc(50% - 3px);
+      box-sizing: border-box;
+      transform: translate(-50%, -50%);
+    }
+    ul li:nth-child(2) span::before {
+      content: '';
+      position: absolute;
+      color: #000;
+      width: 6px;
+      height: 4px;
+      top: 0px;
+      border: 1px solid currentColor;
+      border-left-style: transparent;
+      border-radius: 0 3px 3px 0;
+    }
+    ul li:nth-child(2) span::after {
+      content: '';
+      position: absolute;
+      color: #000;
+      width: 6px;
+      height: 4px;
+      bottom: 0px;
+      border: 1px solid currentColor;
+      border-left-style: transparent;
+      border-radius: 0 3px 3px 0;
+    }
+    /* B end */
+    /* C start */
+    ul li:nth-child(3) span {
+      position: absolute;
+      height: 11px;
+      width: 10px;
+      color: #000;
+      border: 1px solid currentColor;
+      border-radius: 5px;
+      top: 50%;
+      left: 50%;
+      box-sizing: border-box;
+      transform: translate(-50%, -50%);
+    }
+    ul li:nth-child(3) span::before {
+      content: '';
+      position: absolute;
+      width: 5px;
+      height: 5px;
+      background: #bdc3c7;
+      transform: translate(6px, 2px) rotate(45deg);
+    }
+    /* C end */
+    /* D start */
+    ul li:nth-child(4) span {
+      position: absolute;
+      height: 11px;
+      width: 1px;
+      color: #000;
+      background: currentColor;
+      top: 50%;
+      left: calc(50% - 3px);
+      box-sizing: border-box;
+      transform: translate(-50%, -50%);
+    }
+    ul li:nth-child(4) span::before {
+      content: '';
+      position: absolute;
+      height: 11px;
+      width: 8px;
+      box-sizing: border-box;
+      border: 1px solid currentColor;
+      border-left: none;
+      border-radius: 0px 5px 5px 0;
+    }
+    /* D end */
+  </style>
+</head>
+<body>
+  <div class="container">
+    <ul>
+      <li><span></span></li>
+      <li><span></span></li>
+      <li><span></span></li>
+      <li><span></span></li>
+    </ul>
+  </div>
+</body>
+</html>

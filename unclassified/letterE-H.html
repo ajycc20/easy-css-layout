@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Letter E-H</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #bdc3c7;
+    }
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    ul {
+      display: flex;
+      position: relative;
+    }
+    ul li {
+      list-style: none;
+      position: relative;
+      margin: 20px;
+      box-sizing: border-box;
+      width: 40px;
+      height: 40px;
+      border: 1px solid #000;
+    }
+    /* E start */
+    ul li:nth-child(1) span {
+      position: absolute;
+      height: 1px;
+      width: 4px;
+      color: #000;
+      box-sizing: border-box;
+      background: currentColor;
+      top: 50%;
+      left: calc(50% - 1px);
+      transform: translate(-50%, -50%);
+    }
+    ul li:nth-child(1) span::before {
+      content: '';
+      position: absolute;
+      width: 5px;
+      height: 5px;
+      border-top: 1px solid currentColor;
+      border-left: 1px solid currentColor;
+      transform: translate(-1px, -5px);
+    }
+    ul li:nth-child(1) span::after {
+      content: '';
+      position: absolute;
+      width: 5px;
+      height: 5px;
+      border-bottom: 1px solid currentColor;
+      border-left: 1px solid currentColor;
+      transform: translate(-1px, 0px);
+    }
+    /* E end */
+    /* F start */
+    ul li:nth-child(2) span {
+      position: absolute;
+      height: 1px;
+      width: 4px;
+      color: #000;
+      box-sizing: border-box;
+      background: currentColor;
+      top: 50%;
+      left: calc(50% - 1px);
+      transform: translate(-50%, -50%);
+    }
+    ul li:nth-child(2) span::before {
+      content: '';
+      position: absolute;
+      width: 5px;
+      height: 10px;
+      border-top: 1px solid currentColor;
+      border-left: 1px solid currentColor;
+      transform: translate(-1px, -5px);
+    }
+    /* F end */
+    /* G start */
+    ul li:nth-child(3) span {
+      position: absolute;
+      height: 11px;
+      width: 10px;
+      color: #000;
+      border: 1px solid currentColor;
+      border-radius: 5px;
+      top: 50%;
+      left: 50%;
+      box-sizing: border-box;
+      transform: translate(-50%, -50%);
+    }
+    ul li:nth-child(3) span::before {
+      content: '';
+      position: absolute;
+      width: 5px;
+      height: 5px;
+      background: #bdc3c7;
+      transform: translate(6px, 2px) rotate(45deg);
+    }
+    ul li:nth-child(3) span::after {
+      content: '';
+      position: absolute;
+      width: 4px;
+      height: 3px;
+      box-sizing: border-box;
+      border-top: 1px solid currentColor;
+      border-right: 1px solid currentColor;
+      transform: translate(4px, 5px);
+    }
+    /* G end */
+    /* H start */
+    ul li:nth-child(4) span {
+      position: absolute;
+      height: 1px;
+      width: 7px;
+      color: #000;
+      background: currentColor;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    ul li:nth-child(4) span::before {
+      content: '';
+      position: absolute;
+      height: 11px;
+      width: 1px;
+      background: currentColor;
+      transform: translate(0px, -5px);
+    }
+    ul li:nth-child(4) span::after {
+      content: '';
+      position: absolute;
+      height: 11px;
+      width: 1px;
+      background: currentColor;
+      transform: translate(6px, -5px);
+    }
+    /* H end */
+  </style>
+</head>
+<body>
+  <div class="container">
+      <ul>
+        <li><span></span></li>
+        <li><span></span></li>
+        <li><span></span></li>
+        <li><span></span></li>
+      </ul>
+    </div>
+</body>
+</html>

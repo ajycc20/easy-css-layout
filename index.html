@@ -205,6 +205,15 @@
       </ul>
     </div>
 
+    <hr>
+    <!-- Unclassified -->
+    <div class="unclassified">
+      <h3>Unclassified</h3>
+      <ul>
+        <!-- unclassified type list -->
+      </ul>
+    </div>
+
   </div>
   <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
   <script>
@@ -219,8 +228,9 @@
         // 单独处理 icon
         if (type == 'icon') {
           // 使用数组存放所有的文件名
-          let fileArr = ['arrow', 'change', 'change02', 'code', 'download', 'link', 'loading',
-           'moon-dark', 'moon-light', 'power', 'scan', 'scan02', 'search', 'star-five', 'upload', 'wifi']
+          let fileArr = ['arrow', 'change', 'change02', 'code', 'download',
+                         'link', 'loading', 'moon-dark', 'moon-light', 'power',
+                         'scan', 'scan02', 'search', 'star-five', 'upload', 'wifi']
           for (let i = 0; i < fileArr.length; i++) {
             let tagArea = $('.' + type + ' ul') // 标签域
             let listArea // 模板字符串
@@ -236,6 +246,37 @@
             } else if (location.hostname == 'ajycc20.github.io') {
               iframeSrc = 'https://ajycc20.github.io/easy-css-layout/icon/'
               hrefLink = 'https://github.com/ajycc20/easy-css-layout/blob/master/icon/'
+            }
+            listArea = `
+              <li>
+                <iframe src="${iframeSrc + fileArr[i]}.html" frameborder="0"></iframe>
+                <a href="${hrefLink + fileArr[i]}.html" target="_blank">
+                  <span>${fileArr[i]}</span>
+                </a>
+              </li>`
+
+            tagArea.append(listArea)
+          }
+        // 单独处理 unclassified
+        } else if(type == 'unclassified') {
+          // let fileArr = ['cube', 'letterA-D', 'letterE-H', 'letterI-L', 
+          //               'letterM-P', 'letterQ-T', 'letterU-X', 'letterY-Z']
+          let fileArr = ['cube', 'letterA-D', 'letterE-H']
+          for (let i = 0; i < fileArr.length; i++) {
+            let tagArea = $('.' + type + ' ul') // 标签域
+            let listArea // 模板字符串
+            let iframeSrc = '', hrefLink = ''
+
+            // 本地环境
+            if (location.hostname == '127.0.0.1') {
+              
+              iframeSrc = './unclassified/'
+              hrefLink = './unclassified/'
+
+            // github page
+            } else if (location.hostname == 'ajycc20.github.io') {
+              iframeSrc = 'https://ajycc20.github.io/easy-css-layout/unclassified/'
+              hrefLink = 'https://github.com/ajycc20/easy-css-layout/blob/master/unclassified/'
             }
             listArea = `
               <li>
@@ -305,6 +346,8 @@
       addFrames('input', 1)
       // list type
       addFrames('list', 3)
+      // unclassified type
+      addFrames('unclassified', 8)
     })
   </script>
 </body>
