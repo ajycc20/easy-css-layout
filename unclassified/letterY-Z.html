@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Letter Y-Z</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #bdc3c7;
+    }
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    ul {
+      display: flex;
+      position: relative;
+    }
+    ul li {
+      list-style: none;
+      position: relative;
+      margin: 10px;
+      box-sizing: border-box;
+      width: 40px;
+      height: 40px;
+      border: 1px solid #000;
+    }
+    /* Y start */
+    ul li:first-child span {
+      position: absolute;
+      height: 5px;
+      width: 1px;
+      color: #000;
+      background: currentColor;
+      top: calc(50% + 3px);
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    ul li:first-child span::before {
+      content: '';
+      position: absolute;
+      width: 1px;
+      height: 6px;
+      background: currentColor;
+      transform: translate(-3px, -5px) skewX(27deg);
+      transform-origin: center top;
+    }
+    ul li:first-child span::after {
+      content: '';
+      position: absolute;
+      width: 1px;
+      height: 6px;
+      background: currentColor;
+      transform: translate(3px, -5px) skewX(-27deg);
+      transform-origin: center top;
+    }
+    /* Y end */
+    /* Z start */
+    ul li:last-child span {
+      position: absolute;
+      width: 7px;
+      height: 8px;
+      color: #000;
+      border-top: 1px solid currentColor;
+      border-bottom: 1px solid currentColor;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    ul li:last-child span::before {
+      content: '';
+      position: absolute;
+      height: 8px;
+      width: 1px;
+      background: currentColor;
+      transform: translate(6px, 0px) skewX(-37deg);
+      transform-origin: right top;
+    }
+    /* Z end */
+  </style>
+</head>
+<body>
+  <div class="container">
+      <ul>
+        <li><span></span></li>
+        <li><span></span></li>
+      </ul>
+    </div>
+</body>
+</html>
