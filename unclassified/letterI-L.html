@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Letter I-L</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #bdc3c7;
+    }
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    ul {
+      display: flex;
+      position: relative;
+    }
+    ul li {
+      list-style: none;
+      position: relative;
+      margin: 20px;
+      box-sizing: border-box;
+      width: 40px;
+      height: 40px;
+      border: 1px solid #000;
+    }
+    /* I start */
+    ul li:nth-child(1) span {
+      position: absolute;
+      height: 11px;
+      width: 1px;
+      color: #000;
+      background: currentColor;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    ul li:nth-child(1) span::before {
+      content: '';
+      position: absolute;
+      width: 3px;
+      height: 1px;
+      background: currentColor;
+      transform: translate(-1px, 0px);
+      transform-origin: center top;
+    }
+    ul li:nth-child(1) span::after {
+      content: '';
+      position: absolute;
+      width: 3px;
+      height: 1px;
+      background: currentColor;
+      transform: translate(-1px, 10px);
+      transform-origin: center bottom;
+    }
+    /* I end */
+    /* J start */
+    ul li:nth-child(2) span {
+      position: absolute;
+      height: 7px;
+      width: 1px;
+      color: #000;
+      background: currentColor;
+      border-top: 1px solid currentColor;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    ul li:nth-child(2) span::before {
+      content: '';
+      position: absolute;
+      height: 2px;
+      width: 4px;
+      border: 1px solid currentColor;
+      border-top: none;
+      border-radius: 0px 0px 3px 3px;
+      transform: translate(-5px, 7px);
+      transform-origin: center bottom;
+    }
+    ul li:nth-child(2) span::after {
+      content: '';
+      position: absolute;
+      width: 3px;
+      height: 1px;
+      background: currentColor;
+      transform: translate(-1px, -1px);
+      transform-origin: center top;
+    }
+    /* J end */
+    /* K start */
+    ul li:nth-child(3) span {
+      position: absolute;
+      height: 11px;
+      width: 1px;
+      background: currentColor;
+      top: 50%;
+      left: calc(50% - 3px);
+      transform: translate(-50%, -50%);
+    }
+    ul li:nth-child(3) span::before {
+      content: '';
+      position: absolute;
+      height: 7px;
+      width: 1px;
+      background: currentColor;
+      transform: translate(3px, 0px) skewX(-42deg);
+      transform-origin: left center;
+    }
+    ul li:nth-child(3) span::after {
+      content: '';
+      position: absolute;
+      height: 6px;
+      width: 1px;
+      background: currentColor;
+      transform: translate(4px, 5px) skewX(42deg);
+      transform-origin: left center;
+    }
+    /* K end */
+    /* L start */
+    ul li:nth-child(4) span {
+      position: absolute;
+      height: 11px;
+      width: 6px;
+      color: #000;
+      border: 1px solid currentColor;
+      border-top: none;
+      border-right: none;
+      box-sizing: border-box;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    /* L end */
+  </style>
+</head>
+<body>
+  <div class="container">
+      <ul>
+        <li><span></span></li>
+        <li><span></span></li>
+        <li><span></span></li>
+        <li><span></span></li>
+      </ul>
+    </div>
+</body>
+</html>
