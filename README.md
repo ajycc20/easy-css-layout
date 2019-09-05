@@ -120,6 +120,7 @@ Just for practice & backups
 |Loading08|[loading08](https://github.com/ajycc20/easy-css-layout/blob/master/loading/loading08.html)|[loading08](https://ajycc20.github.io/easy-css-layout/loading/loading08.html)|![loading08.gif](https://img2.ajycc20.xyz/images/2019/09/05/fqrSywYjzJW5v86Z.gif)|
 |Loading09|[loading09](https://github.com/ajycc20/easy-css-layout/blob/master/loading/loading09.html)|[loading09](https://ajycc20.github.io/easy-css-layout/loading/loading09.html)|![loading09.gif](https://img2.ajycc20.xyz/images/2019/09/05/rVk7gFxLTOx2iAG2.gif)|
 |Loading10|[loading10](https://github.com/ajycc20/easy-css-layout/blob/master/loading/loading10.html)|[loading10](https://ajycc20.github.io/easy-css-layout/loading/loading10.html)|![loading10.gif](https://img2.ajycc20.xyz/images/2019/09/05/avYTwBIngL3CxHTR.gif)|
+|Loading11|[loading11](https://github.com/ajycc20/easy-css-layout/blob/master/loading/loading11.html)|[loading11](https://ajycc20.github.io/easy-css-layout/loading/loading11.html)|![loading11.gif](https://img2.ajycc20.xyz/images/2019/09/05/iDjKW0sPFsIfVEtV.gif)|
 
 ----------------------
 

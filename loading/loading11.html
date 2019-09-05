@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Loading 11</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #fff;
+    }
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    ul {
+      display: flex;
+    }
+    ul li {
+      list-style: none;
+      background: #ED4C67;
+      border-radius: 50%;
+      width: 20px;
+      height: 20px;
+      margin: 6px;
+      animation: animate .7s infinite linear alternate;
+    }
+    @keyframes animate {
+      0% {
+        transform: scale(0);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+    ul li:nth-child(2) {
+      animation-delay: -.15s;
+    }
+    ul li:nth-child(3) {
+      animation-delay: -.3s;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>
+</body>
+</html>
