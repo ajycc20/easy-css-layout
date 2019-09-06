@@ -63,16 +63,15 @@
         transform: scaleX(1) translate(-2px, -4px);
       }
     }
-    .input:focus ~ .label {
-      transform: translate(0px, -50px);
-      color: #8e44ad;
-    }
     .underline {
       position: absolute;
       display: block;
       width: 182px;
       transform: translate(-2px, -4px);
       transform-origin: bottom;
+    }
+    .input:placeholder-shown::placeholder {
+      color: transparent;
     }
     .label {
       position: absolute;
@@ -82,29 +81,21 @@
       transition: .3s;
       z-index: -1;
     }
-    .labelup {
+    .input:not(:placeholder-shown) ~ .label,
+    .input:focus ~ .label {
       transform: translate(0px, -50px);
       color: #8e44ad;
     }
+    
   </style>
 </head>
 <body>
   <div class="container">
     <div class="search-icon">
     </div>
-    <input type="text" class="input" id="input" value="">
+    <input type="text" class="input" id="input" placeholder="Title" value="">
     <span class="underline"></span>
     <label class="label">Title</label>
   </div>
-  <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
-  <script>
-    $('#input').focus(function() {
-      if(this.value != '') {
-        $('.label').toggleClass('labelup')
-      } else {
-        $('.label').toggleClass('labelup')
-      }
-    })
-  </script>
 </body>
 </html>
