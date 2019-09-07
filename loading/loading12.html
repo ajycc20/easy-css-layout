@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Loading 12</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #34495e;
+      font-family: sans-serif;
+    }
+    .container {
+      top: 50%;
+      left: 50%;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      overflow: hidden;
+    }
+    .loading {
+      position: relative;
+      box-sizing: border-box;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border-top: 10px solid #e06161;
+      animation: animate-box 2s linear infinite;
+    }
+    .loading::before,
+    .loading::after {
+      content: '';
+      position: absolute;
+      width: 150px;
+      height: 150px;
+      left: 0px;
+      top: -10px;
+      border-radius: 50%;
+      box-sizing: border-box;
+    }
+    .loading::before {
+      border-top: 10px solid #4aee4a;
+      transform: rotate(120deg);
+    }
+    .loading::after {
+      border-top: 10px solid #6e6ed6;
+      transform: rotate(240deg);
+    }
+    .loading span {
+      position: absolute;
+      width: 150px;
+      height: 150px;
+      color: #fff;
+      font-size: 14px;
+      text-align: center;
+      line-height: 150px;
+      animation: animate-text 2s infinite linear;
+    }
+    @keyframes animate-box {
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+    @keyframes animate-text {
+      100% {
+        transform: rotate(-360deg);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="loading">
+      <span>Loading...</span>
+    </div>
+  </div>
+</body>
+</html>

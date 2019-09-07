@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Loading 13</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #2c3e50;
+    }
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .loading {
+      position: relative;
+    }
+    .item {
+      width: 8px;
+      height: 60px;
+      background: #fff;
+      display: inline-block;
+      animation: animate 1.6s infinite ease-in-out;
+      transform-origin: center bottom;
+    }
+    .item1 {
+      animation-delay: -.8s;
+    }
+    .item2 {
+      animation-delay: -.7s;
+    }
+    .item3 {
+      animation-delay: -.6s;
+    }
+    .item4 {
+      animation-delay: -.5s;
+    }
+    .item5 {
+      animation-delay: -.4s;
+    }
+    .item6 {
+      animation-delay: -.3s;
+    }
+    .item7 {
+      animation-delay: -.2s;
+    }
+    .item8 {
+      animation-delay: -.1s;
+    }
+    @keyframes animate {
+      0% {
+        transform: scaleY(0);
+        background: rgb(214, 209, 209);
+      }
+      50% {
+        transform: scaleY(1);
+        background: #2ecc71;
+      }
+      100% {
+        transform: scaleY(0);
+        background: transparent;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="loading">
+      <div class="item item1"></div>
+      <div class="item item2"></div>
+      <div class="item item3"></div>
+      <div class="item item4"></div>
+      <div class="item item5"></div>
+      <div class="item item6"></div>
+      <div class="item item7"></div>
+      <div class="item item8"></div>
+    </div>
+  </div>
+</body>
+</html>
