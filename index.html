@@ -228,11 +228,14 @@
         // 单独处理 icon
         if (type == 'icon' || type == 'unclassified') {
           let fileArr = [] // 声明fileArr
+          
+          // 使用数组存放所有的文件名 icon
           if (type == 'icon') {
-            // 使用数组存放所有的文件名
             fileArr = ['arrow', 'change', 'change02', 'code', 'download',
-                          'link', 'loading', 'moon-dark', 'moon-light', 'power',
-                          'scan', 'scan02', 'search', 'star-five', 'upload', 'wifi']
+                        'link', 'loading', 'moon-dark', 'moon-light', 'power',
+                        'question-mark', 'scan', 'scan02', 'search', 'star-five',
+                        'star-six', 'upload', 'wifi']
+          // unclassified
           } else if (type == 'unclassified') {
             fileArr = ['cube', 'letterA-D', 'letterE-H', 'letterI-L', 
                         'letterM-P', 'letterQ-T', 'letterU-X', 'letterY-Z']
@@ -310,7 +313,7 @@
       // checkbox type
       addFrames('checkbox', 3)
       // icon type
-      addFrames('icon', 16)
+      addFrames('icon', 18)
       // navbar type
       addFrames('navbar', 3)
       // pagination type

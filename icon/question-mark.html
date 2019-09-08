@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Question Mark</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: rgb(216, 213, 213);
+    }
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .question-mark {
+      position: relative;
+      width: 12px;
+      height: 12px;
+      color: #000;
+      border-radius: 50% 50% 1px 50%;
+      border: 1px solid currentColor;
+      box-sizing: border-box;
+      border-bottom: none;
+      transform: rotate(45deg);
+    }
+    .question-mark::before {
+      content: '';
+      position: absolute;
+      width: 1px;
+      height: 5px;
+      background: currentColor;
+      transform: translate(12px, 10px) rotate(-45deg);
+    }
+    .question-mark::after {
+      content: '';
+      position: absolute;
+      width: 2px;
+      height: 2px;
+      background: currentColor;
+      border-radius: 50%;
+      transform: translate(15px, 15px);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="question-mark"></div>
+  </div>
+</body>
+</html>

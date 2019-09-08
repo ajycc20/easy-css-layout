@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Star Six</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: rgb(216, 213, 213);
+    }
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .star-six {
+      position: relative;
+      color: #ff0000;
+      width: 0;
+      height: 0;
+      border-top: 104px solid currentColor;
+      border-left: 60px solid transparent;
+      border-right: 60px solid transparent;
+    }
+    .star-six::before {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 0;
+      top: 0;
+      left: 0;
+      border-bottom: 104px solid currentColor;
+      border-left: 60px solid transparent;
+      border-right: 60px solid transparent;
+      transform: translate(-60px, -140px);
+      transform-origin: left top;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="star-six"></div>
+  </div>
+</body>
+</html>
