@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Loading 14</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #131212;
+    }
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .loading {
+      position: relative;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+    }
+    .bar {
+      position: absolute;
+      width: 60px;
+      height: 10px;
+      top: 55px;
+      left: 0px;
+      transform-origin: right center;
+      animation: animate 1.2s linear infinite;
+      opacity: 1;
+    }
+    @keyframes animate {
+      to {
+        opacity: 0;
+      }
+    }
+    .bar:nth-child(2) {
+      transform: rotate(30deg);
+      animation-delay: -1.1s;
+    }
+    .bar:nth-child(3) {
+      transform: rotate(60deg);
+      animation-delay: -1s;
+    }
+    .bar:nth-child(4) {
+      transform: rotate(90deg);
+      animation-delay: -.9s;
+    }
+    .bar:nth-child(5) {
+      transform: rotate(120deg);
+      animation-delay: -.8s;
+    }
+    .bar:nth-child(6) {
+      transform: rotate(150deg);
+      animation-delay: -.7s;
+    }
+    .bar:nth-child(7) {
+      transform: rotate(180deg);
+      animation-delay: -.6s;
+    }
+    .bar:nth-child(8) {
+      transform: rotate(210deg);
+      animation-delay: -.5s;
+    }
+    .bar:nth-child(9) {
+      transform: rotate(240deg);
+      animation-delay: -.4s;
+    }
+    .bar:nth-child(10) {
+      transform: rotate(270deg);
+      animation-delay: -.3s;
+    }
+    .bar:nth-child(11) {
+      transform: rotate(300deg);
+      animation-delay: -.2s;
+    }
+    .bar:nth-child(12) {
+      transform: rotate(330deg);
+      animation-delay: -.1s;
+    }
+    .bar::before {
+      content: '';
+      position: absolute;
+      color: rgb(105, 90, 241);
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: currentColor;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="loading">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+  </div>
+</body>
+</html>

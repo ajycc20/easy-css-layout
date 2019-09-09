@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Loading 15</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #fff;
+    }
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .loading {
+      position: relative;
+      width: 200px;
+      height: 50px;
+      display: flex;
+    }
+    .eat {
+      position: relative;
+      width: 50px;
+      height: 50px;
+      left: 0;
+      color: #ff0000;
+      animation: eat-animate 2.4s ease-in-out infinite;
+    }
+    @keyframes eat-animate {
+      100% {
+        left: 150px;
+      }
+    }
+    .eat::before {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 0;
+      width: 50px;
+      height: 25px;
+      top: 0;
+      border-radius: 50px 50px 0 0;
+      background: currentColor;
+      transform: rotate(-30deg);
+      animation: eat-top 2.4s ease-in-out infinite;
+    }
+    @keyframes eat-top {
+      20% {
+        transform: rotate(-30deg);
+      }
+      35% {
+        transform: rotate(0deg);
+      }
+      45% {
+        transform: rotate(-30deg);
+      }
+      60% {
+        transform: rotate(0deg);
+      }
+      70% {
+        transform: rotate(-30deg);
+      }
+      85% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(0deg);
+      }
+    }
+    .eat::after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 0;
+      width: 50px;
+      height: 25px;
+      bottom: 0;
+      border-radius: 0 0 50px 50px;
+      background: currentColor;
+      transform: rotate(30deg);
+      animation: eat-bottom 2.4s ease-in-out infinite;
+    }
+    @keyframes eat-bottom {
+      20% {
+        transform: rotate(30deg);
+      }
+      35% {
+        transform: rotate(0deg);
+      }
+      45% {
+        transform: rotate(30deg);
+      }
+      60% {
+        transform: rotate(0deg);
+      }
+      70% {
+        transform: rotate(30deg);
+      }
+      85% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(0deg);
+      }
+    }
+    .load {
+      position: relative;
+      width:30px;
+      height: 30px;
+      margin: 10px;
+      color: #e47272;
+      border-radius: 50%;
+      background: currentColor;
+    }
+    .load:nth-child(2) {
+      animation: load1 2.4s linear infinite;
+      transform: scale(1);
+    }
+    @keyframes load1 {
+      35% {
+        transform: scale(0);
+      }
+      100% {
+        transform: scale(0);
+      }
+    }
+    .load:nth-child(3) {
+      animation: load2 2.4s linear infinite;
+      transform: scale(1);
+    }
+    @keyframes load2 {
+      30% {
+        transform: scale(1);
+      }
+      58% {
+        transform: scale(0);
+      }
+      100% {
+        transform: scale(0);
+      }
+    }
+    .load:nth-child(4) {
+      animation: load3 2.4s linear infinite;
+      transform: scale(1);
+    }
+    @keyframes load3 {
+      60% {
+        transform: scale(1);
+      }
+      80% {
+        transform: scale(0);
+      }
+      100% {
+        transform: scale(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="loading">
+      <div class="eat"></div>
+      <div class="load"></div>
+      <div class="load"></div>
+      <div class="load"></div>
+    </div>
+  </div>
+</body>
+</html>
