@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Button 13</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #1e272e;
+      font-family: serif;
+    }
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .btn {
+      position: relative;
+      font-size: 16px;
+      color: #000;
+      padding: 10px 32px;
+      letter-spacing: 1px;
+      text-decoration: none;
+      text-transform: uppercase;
+      background: #fff;
+      border-radius: 36px;
+      transition: .5s;
+    }
+    .btn:hover {
+      background: transparent;
+      color: #fff;
+    }
+    .left-heart {
+      position: absolute;
+      color: #ff0000;
+      top: 0px;
+      left: -100px;
+      width: 20px;
+      height: 30px;
+      background: currentColor;
+      z-index: -1;
+      border-radius: 15px 0px 0px 15px;
+      transform: rotate(180deg) translate(0px, 0px);
+      transition: .5s ease-in-out;
+      opacity: 0;
+    }
+    .left-heart::before {
+      content: '';
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      width: 0;
+      height: 0;
+      border-top: 15px solid transparent;
+      border-bottom: 15px solid currentColor;
+      border-left: 15px solid currentColor;
+      border-right: 15px solid transparent;
+      transform: translate(29px, 0px);
+    }
+    .btn:hover ~ .left-heart {
+      left: 0px;
+      transform: rotate(45deg) translate(5px, -26px);
+      opacity: 1;
+    }
+    .btn:hover ~ .right-heart {
+      right: 0px;
+      transform: rotate(-45deg) translate(-7px, -28px);
+      opacity: 1;
+    }
+    .right-heart {
+      position: absolute;
+      color: #ff0000;
+      top: 0px;
+      right: -100px;
+      width: 20px;
+      height: 30px;
+      background: currentColor;
+      z-index: -1;
+      border-radius: 0px 15px 15px 0px;
+      transform: rotate(-180deg) translate(0px, 0px);
+      transition: .5s ease-in-out;
+      opacity: 0;
+    }
+    .right-heart::before {
+      content: '';
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      width: 0;
+      height: 0;
+      border-top: 15px solid transparent;
+      border-bottom: 15px solid currentColor;
+      border-left: 15px solid transparent;
+      border-right: 15px solid currentColor;
+      transform: translate(-19px, 0px);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="#" class="btn">Like</a>
+    <span class="left-heart"></span>
+    <span class="right-heart"></span>
+  </div>
+</body>
+</html>
