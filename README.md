@@ -107,6 +107,8 @@ Just for practice & backups
 |Link|[link](https://github.com/ajycc20/easy-css-layout/blob/master/icon/link.html)|[link](https://ajycc20.github.io/easy-css-layout/icon/link.html)|![link.jpg](https://img2.ajycc20.xyz/images/2019/08/28/EUwwFDvV4W96NWYH.jpg)|
 |Star-Six|[star-six](https://github.com/ajycc20/easy-css-layout/blob/master/icon/star-six.html)|[star-six](https://ajycc20.github.io/easy-css-layout/icon/star-six.html)|![star-six.jpg](https://img2.ajycc20.xyz/images/2019/09/08/JNMMkpr1zWMA3Q6w.jpg)|
 |Question-Mark|[question-mark](https://github.com/ajycc20/easy-css-layout/blob/master/icon/question-mark.html)|[question-mark](https://ajycc20.github.io/easy-css-layout/icon/question-mark.html)|![question-mark.jpg](https://img2.ajycc20.xyz/images/2019/09/08/pMsl98opDVw5xB1Y.jpg)|
+|BlueTooth|[bluetooth](https://github.com/ajycc20/easy-css-layout/blob/master/icon/bluetooth.html)|[bluetooth](https://ajycc20.github.io/easy-css-layout/icon/bluetooth.html)|![bluetooth.jpg](https://img2.ajycc20.xyz/images/2019/09/14/F0bwLIuM2fAqUwWo.jpg)|
+|Cloud|[cloud](https://github.com/ajycc20/easy-css-layout/blob/master/icon/cloud.html)|[cloud](https://ajycc20.github.io/easy-css-layout/icon/cloud.html)|![cloud.jpg](https://img2.ajycc20.xyz/images/2019/09/14/G1GfSKDpHwWluSvD.jpg)|
 
 ----------------------
 

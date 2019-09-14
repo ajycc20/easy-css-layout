@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>BlueTooth</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #bdc3c7;
+    }
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .bluetooth {
+      position: relative;
+      transform: rotate(45deg);
+    }
+    .bluetooth::before,
+    .bluetooth::after {
+      content: '';
+      position: absolute;
+      width: 1px;
+      height: 23px;
+      top: 0px;
+      left: 0px;
+      background: #000;
+      box-sizing: border-box;
+    }
+    .bluetooth::before {
+      transform: translate(7px, -19px) rotate(-45deg);
+    }
+    .bluetooth::after {
+      transform: translate(22px, -4px) rotate(-45deg);
+    }
+    span {
+      position: relative;
+      display: block;
+      width: 16px;
+      height: 16px;
+      color: #000;
+      border: 1px solid currentColor;
+      border-left: none;
+      border-bottom: none;
+      box-sizing: border-box;
+    }
+    span::before,
+    span::after {
+      content: '';
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      border: 1px solid currentColor;
+      border-left: none;
+      border-bottom: none;
+      box-sizing: border-box;
+      transform-origin: center center;
+    }
+    span::before {
+      transform: translate(0px, -17px);
+    }
+    span::after {
+      transform: translate(15px, -1px);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="bluetooth">
+      <span></span>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Cloud</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #bdc3c7;
+    }
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .cloud {
+      position: relative;
+      width: 14px;
+      height: 14px;
+      color: #000;
+      box-sizing: border-box;
+      border: 1px solid currentColor;
+      border-bottom: 1px solid transparent;
+      border-radius: 50%;
+      transform: rotate(10deg);
+    }
+    .cloud::before {
+      content: '';
+      position: absolute;
+      width: 12px;
+      height: 12px;
+      left: 0px;
+      top: 0px;
+      box-sizing: border-box;
+      border: 1px solid currentColor;
+      border-right: 1px solid transparent;
+      border-radius: 6px 6px 0px 6px;
+      transform: translate(-8px, 9px) rotate(-10deg);
+    }
+    .cloud::after {
+      content: '';
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      left: 0px;
+      top: 0px;
+      box-sizing: border-box;
+      border: 1px solid currentColor;
+      border-left: 1px solid transparent;
+      border-radius: 5px 5px 5px 0px;
+      transform: translate(10px, 8px) rotate(-10deg);
+    }
+    span {
+      position: relative;
+      width: 16px;
+      height: 1px;
+      background: #000;
+      display: block;
+      transform: translate(2px, 18px) rotate(-10deg);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="cloud">
+      <span></span>
+    </div>
+  </div>
+</body>
+</html>
