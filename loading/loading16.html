@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Loading 16</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #fff;
+    }
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .loading {
+      position: relative;
+      width: 200px;
+      height: 50px;
+      display: flex;
+    }
+    .loading span {
+      position: relative;
+      display: block;
+      width: 20px;
+      height: 20px;
+      color: #ee5253;
+      background: currentColor;
+      margin: 4px;
+      border-radius: 50%;
+      animation: animate 2s infinite linear;
+    }
+    @keyframes animate {
+      0%, 20% {
+        transform: translateY(0);
+      }
+      10% {
+        transform: translateY(-15px);
+      }
+    }
+    .loading span:nth-child(1) {
+      animation-delay: 0s;
+    }
+    .loading span:nth-child(2) {
+      animation-delay: .4s;
+    }
+    .loading span:nth-child(3) {
+      animation-delay: .8s;
+    }
+    .loading span:nth-child(4) {
+      animation-delay: 1.2s;
+    }
+    .loading span:nth-child(5) {
+      animation-delay: 1.6s;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="loading">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+</body>
+</html>
