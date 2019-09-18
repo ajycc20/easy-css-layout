@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Loading 17</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #000;
+    }
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    h1 {
+      position: relative;
+      color: #333;
+      font-size: 2em;
+      text-transform: uppercase;
+      letter-spacing: .2em;
+      border-bottom: 6px solid #333;
+    }
+    h1::before {
+      content: attr(data-text);
+      position: absolute;
+      color: #2196F3;
+      top: 0;
+      left: 0;
+      width: 100%;
+      overflow: hidden;
+      border-bottom: 6px solid #2196F3;
+      animation: animate 8s linear infinite;
+    }
+    @keyframes animate {
+      from {
+        width: 0;
+      }
+      to {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 data-text="Loading...">Loading...</h1>
+  </div>
+</body>
+</html>
