@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Concentric Circles</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #fff;
+    }
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .circle {
+      position: relative;
+      width: 30px;
+      height: 30px;
+      color: #000;
+      border: 1px solid currentColor;
+      border-radius: 50%;
+      box-sizing: border-box;
+      box-shadow: inset 0px 0px 0px 1px #fff,
+                  inset 0px 0px 0px 2px #000,
+                  inset 0px 0px 0px 3px #fff,
+                  inset 0px 0px 0px 4px #000,
+                  inset 0px 0px 0px 5px #fff;
+    }
+    .circle::before {
+      position: absolute;
+      content: '';
+      width: 16px;
+      height: 16px;
+      top: 6px;
+      left: 6px;
+      border: 1px solid currentColor;
+      border-radius: 50%;
+      box-sizing: border-box;
+    }
+    .circle::after {
+      position: absolute;
+      content: '';
+      width: 10px;
+      height: 10px;
+      top: 9px;
+      left: 9px;
+      border: 1px solid currentColor;
+      border-radius: 50%;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="circle"></div>
+  </div>
+</body>
+</html>
