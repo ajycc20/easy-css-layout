@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Loading 19</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #bdc3c7;
+    }
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .loading {
+      position: relative;
+      width: 100px;
+      height: 100px;
+      background: #3498db;
+    }
+    .box {
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      background: #f1c40f;
+    }
+    .box:nth-child(1) {
+      animation: animate1 2s linear infinite;
+    }
+    @keyframes animate1 {
+      0% {
+        top: 0px;
+        left: 0px;
+        width: 50px;
+        height: 50px;
+      }
+      12.5% {
+        top: 0px;
+        left: 0px;
+        width: 100px;
+        height: 50px;
+      }
+      25% {
+        top: 0px;
+        left: 0px;
+        width: 100px;
+        height: 50px;
+      }
+      37.5% {
+        top: 0px;
+        left: 50px;
+        width: 50px;
+        height: 50px;
+      }
+      50% {
+        top: 0px;
+        left: 50px;
+        width: 50px;
+        height: 50px;
+      }
+      62.5% {
+        top: 0px;
+        left: 50px;
+        width: 50px;
+        height: 100px;
+      }
+      75% {
+        top: 0px;
+        left: 50px;
+        width: 50px;
+        height: 100px;
+      }
+      87.5% {
+        top: 50px;
+        left: 50px;
+        width: 50px;
+        height: 50px;
+      }
+      100% {
+        top: 50px;
+        left: 50px;
+        width: 50px;
+        height: 50px;
+      }
+    }
+    .box:nth-child(2) {
+      animation: animate2 2s linear infinite;
+    }
+    @keyframes animate2 {
+      0% {
+        right: 0px;
+        bottom: 0px;
+        width: 50px;
+        height: 50px;
+      }
+      12.5% {
+        right: 0px;
+        bottom: 0px;
+        width: 50px;
+        height: 50px;
+      }
+      25% {
+        right: 0px;
+        bottom: 0px;
+        width: 100px;
+        height: 50px;
+      }
+      37.5% {
+        right: 0px;
+        bottom: 0px;
+        width: 100px;
+        height: 50px;
+      }
+      50% {
+        right: 50px;
+        bottom: 0px;
+        width: 50px;
+        height: 50px;
+      }
+      62.5% {
+        right: 50px;
+        bottom: 0px;
+        width: 50px;
+        height: 50px;
+      }
+      75% {
+        right: 50px;
+        bottom: 0px;
+        width: 50px;
+        height: 100px;
+      }
+      87.5% {
+        right: 50px;
+        bottom: 0px;
+        width: 50px;
+        height: 100px;
+      }
+      100% {
+        right: 50px;
+        bottom: 50px;
+        width: 50px;
+        height: 50px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="loading">
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+  </div>
+</body>
+</html>
