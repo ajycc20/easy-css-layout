@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Button 14</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #fff;
+    }
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .btn {
+      text-decoration: none;
+      position: relative;
+      padding: 15px 40px;
+      color: #000;
+      box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+      font-family: sans-serif;
+      text-transform: uppercase;
+      font-size: 22px;
+      letter-spacing: 2px;
+      box-sizing: border-box;
+      display: block;
+      border-radius: 30px;
+      overflow: hidden;
+    }
+    .btn:hover {
+      color: #fff;
+      transition-delay: .5s;
+    }
+    .btn::before,
+    .btn::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%) scale(.5);
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: #ff0000;
+      z-index: -1;
+      opacity: 0;
+    }
+    .btn::before {
+      left: 58px;
+      transition: left .5s 0s, transform .5s 0s;
+    }
+    .btn::after {
+      right: 58px;
+      transition: right .5s 0s, transform .5s 0s;
+    }
+    .btn:hover::before,
+    .btn:hover::after {
+      transform: translateY(-50%) scale(18);
+      transition-delay: 0s, .5s;
+      opacity: 1;
+    }
+    .btn:hover::before {
+      left: 10px;
+    }
+    .btn:hover::after {
+      right: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="#" class="btn">Button</a>
+  </div>
+</body>
+</html>
