@@ -1,76 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Search Box 01</title>
-  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-  <style>
-  body {
-    margin: 0;
-    padding: 0;
-    background: #ecf0f1;
-  }
-  .container {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-  }
-  .search-box {
-    background: #2c3e50;
-    height: 40px;
-    border-radius: 40px;
-    padding: 10px;
-  }
-  .input {
-    position: relative;
-    border: none;
-    background: none;
-    outline: none;
-    color: white;
-    font-size: 22px;
-    line-height: 40px;
-    height: 40px;
-    width: 0px;
-    transition: .5s;
-    padding: 0px 40px 0 0;
-  }
-  .btn {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    text-decoration: none;
-    color: #e74c3c;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background: #2c3e50;
-    transition: .5s;
-  }
-  .btn i {
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    line-height: 40px;
-  }
-  .search-box:hover .input {
-    width: 240px;
-  }
-  .search-box:hover .btn {
-    background: white;
-  }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Search Box 01</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #ecf0f1;
+        }
+
+        .container {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .search-box {
+            /*position: absolute;*/
+            background: #2c3e50;
+            height: 40px;
+            border-radius: 40px;
+            padding: 10px;
+        }
+
+        .search-input {
+            position: relative;
+            border: none;
+            background: none;
+            outline: none;
+            color: white;
+            font-size: 22px;
+            line-height: 40px;
+            height: 40px;
+            width: 0px;
+            transition: .5s;
+            padding: 0px 40px 0 0;
+        }
+
+        .search-box:hover .search-input {
+            width: 240px;
+        }
+
+        .search-box:hover .search-btn {
+            background: white;
+        }
+
+        .search-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            text-decoration: none;
+            color: #e74c3c;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: #2c3e50;
+            transition: .5s;
+        }
+
+        .search-ico {
+            margin: 12px;
+            width: 16px;
+            height: 16px;
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <div class="search-box">
-        <input type="text" class="input">
-        <a href="#" class="btn">
-          <i class="fa fa-search"></i>
-        </a>
-      </div> 
-  </div>
+    <div class="container">
+        <div class="search-box">
+            <input type="text" class="search-input">
+            <a href="#" class="search-btn">
+                <div class="search-ico">
+                    <embed src="svg/search.svg" type="image/svg+xml" />
+                </div>
+            </a>
+        </div>
+    </div>
 </body>
 </html>
