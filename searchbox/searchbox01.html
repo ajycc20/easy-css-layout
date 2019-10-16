@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
 <head>
     <meta charset="UTF-8">
@@ -12,22 +11,19 @@
             padding: 0;
             background: #ecf0f1;
         }
-
         .container {
             position: absolute;
             left: 50%;
             top: 50%;
             transform: translate(-50%, -50%);
         }
-
         .search-box {
-            /*position: absolute;*/
+            position: relative;
             background: #2c3e50;
             height: 40px;
             border-radius: 40px;
             padding: 10px;
         }
-
         .search-input {
             position: relative;
             border: none;
@@ -41,15 +37,12 @@
             transition: .5s;
             padding: 0px 40px 0 0;
         }
-
         .search-box:hover .search-input {
             width: 240px;
         }
-
         .search-box:hover .search-btn {
             background: white;
         }
-
         .search-btn {
             position: absolute;
             top: 10px;
@@ -62,7 +55,6 @@
             background: #2c3e50;
             transition: .5s;
         }
-
         .search-ico {
             margin: 12px;
             width: 16px;
@@ -76,7 +68,7 @@
             <input type="text" class="search-input">
             <a href="#" class="search-btn">
                 <div class="search-ico">
-                    <embed src="svg/search.svg" type="image/svg+xml" />
+                    <embed src="../svg/search.svg" type="image/svg+xml" />
                 </div>
             </a>
         </div>
