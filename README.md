@@ -38,9 +38,9 @@ Just for practice & backups
 
 |Name|Source|Demo|Preview|
 |:---:|:---:|:---:|:---:|
-|NavBar01|[navbar01](https://github.com/ajycc20/easy-css-layout/blob/master/navbar/navbar01.html)|[navBar01](https://ajycc20.github.io/easy-css-layout/navbar/navbar01.html)|![navBar01.gif](https://img2.ajycc20.xyz/images/2019/09/05/LH3E6mGLpnDS89RF.gif)|
-|NavBar02|[navbar02](https://github.com/ajycc20/easy-css-layout/blob/master/navbar/navbar02.html)|[navBar02](https://ajycc20.github.io/easy-css-layout/navbar/navbar02.html)|![navBar02.gif](https://img2.ajycc20.xyz/images/2019/09/05/KLvb1H0vrHBul4Hr.gif)|
-|NavBar03|[navbar03](https://github.com/ajycc20/easy-css-layout/blob/master/navbar/navbar03.html)|[navBar03](https://ajycc20.github.io/easy-css-layout/navbar/navbar03.html)|![navBar03.gif](https://img2.ajycc20.xyz/images/2019/09/05/Dxuoim0aBdihsJjy.gif)|
+|NavBar01|[navbar01](https://github.com/ajycc20/easy-css-layout/blob/master/navbar/navbar01.html)|[navBar01](https://ajycc20.github.io/easy-css-layout/navbar/navbar01.html)|![navBar01.gif](https://i.endpot.com/image/JJF62/navbar01.gif)|
+|NavBar02|[navbar02](https://github.com/ajycc20/easy-css-layout/blob/master/navbar/navbar02.html)|[navBar02](https://ajycc20.github.io/easy-css-layout/navbar/navbar02.html)|![navBar02.gif](https://i.endpot.com/image/JONPX/navbar02.gif)|
+|NavBar03|[navbar03](https://github.com/ajycc20/easy-css-layout/blob/master/navbar/navbar03.html)|[navBar03](https://ajycc20.github.io/easy-css-layout/navbar/navbar03.html)|![navBar03.gif](https://i.endpot.com/image/VEZ8B/navbar03.gif)|
 
 -------------------
 
@@ -48,9 +48,9 @@ Just for practice & backups
 
 |Name|Source|Demo|Preview|
 |:---:|:---:|:---:|:---:|
-|Searchbox01|[searchbox01](https://github.com/ajycc20/easy-css-layout/blob/master/searchbox/searchbox01.html)|[searchBox01](https://ajycc20.github.io/easy-css-layout/searchbox/searchbox01.html)|![searchBox01.gif](https://img2.ajycc20.xyz/images/2019/09/05/E9lYu20L56MAqyi8.gif)|
-|Searchbox02|[searchbox02](https://github.com/ajycc20/easy-css-layout/blob/master/searchbox/searchbox02.html)|[searchBox02](https://ajycc20.github.io/easy-css-layout/searchbox/searchbox02.html)|![searchBox02.gif](https://img2.ajycc20.xyz/images/2019/09/05/ygbrDiSNvwifQUQT.gif)|
-|Searchbox03|[searchbox03](https://github.com/ajycc20/easy-css-layout/blob/master/searchbox/searchbox03.html)|[searchBox03](https://ajycc20.github.io/easy-css-layout/searchbox/searchbox03.html)|![searchBox03.gif](https://img2.ajycc20.xyz/images/2019/09/05/qHIQxFqHgCHiUx7u.gif)|
+|Searchbox01|[searchbox01](https://github.com/ajycc20/easy-css-layout/blob/master/searchbox/searchbox01.html)|[searchBox01](https://ajycc20.github.io/easy-css-layout/searchbox/searchbox01.html)|![searchBox01.gif](https://i.endpot.com/image/GMAX1/searchbox01.gif)|
+|Searchbox02|[searchbox02](https://github.com/ajycc20/easy-css-layout/blob/master/searchbox/searchbox02.html)|[searchBox02](https://ajycc20.github.io/easy-css-layout/searchbox/searchbox02.html)|![searchBox02.gif](https://i.endpot.com/image/LZXAZ/searchbox02.gif)|
+|Searchbox03|[searchbox03](https://github.com/ajycc20/easy-css-layout/blob/master/searchbox/searchbox03.html)|[searchBox03](https://ajycc20.github.io/easy-css-layout/searchbox/searchbox03.html)|![searchBox03.gif](https://i.endpot.com/image/PWUV4/searchbox03.gif)|
 
 ---------------------
 
@@ -58,23 +58,22 @@ Just for practice & backups
 
 |Name|Source|Demo|Preview|
 |:---:|:---:|:---:|:---:|
-|Button01|[button01](https://github.com/ajycc20/easy-css-layout/blob/master/button/button01.html)|[button01](https://ajycc20.github.io/easy-css-layout/button/button01.html)|![button01.gif](https://img2.ajycc20.xyz/images/2019/09/05/AH4BKL5grZw5kSvE.gif)|
-|Button02|[button02](https://github.com/ajycc20/easy-css-layout/blob/master/button/button02.html)|[button02](https://ajycc20.github.io/easy-css-layout/button/button02.html)|![button02.gif](https://img2.ajycc20.xyz/images/2019/09/05/8RkpBMjR3MzHp8gD.gif)|
-|Button03|[button03](https://github.com/ajycc20/easy-css-layout/blob/master/button/button03.html)|[button03](https://ajycc20.github.io/easy-css-layout/button/button03.html)|![button03.gif](https://img2.ajycc20.xyz/images/2019/09/05/JnoIc5LmeF8EXvhy.gif)|
-|Button04|[button04](https://github.com/ajycc20/easy-css-layout/blob/master/button/button04.html)|[button04](https://ajycc20.github.io/easy-css-layout/button/button04.html)|![button04.gif](https://img2.ajycc20.xyz/images/2019/09/05/IgSGjBoxR0rfG4qG.gif)|
-|Button05|[button05](https://github.com/ajycc20/easy-css-layout/blob/master/button/button05.html)|[button05](https://ajycc20.github.io/easy-css-layout/button/button05.html)|![button05.gif](https://img2.ajycc20.xyz/images/2019/09/05/3HXbDYSGJ8zzqqI3.gif)|
-|Button06|[button06](https://github.com/ajycc20/easy-css-layout/blob/master/button/button06.html)|[button06](https://ajycc20.github.io/easy-css-layout/button/button06.html)|![button06.gif](https://img2.ajycc20.xyz/images/2019/09/05/YYz2QpkF7lHIm80u.gif)|
-|Button07|[button07](https://github.com/ajycc20/easy-css-layout/blob/master/button/button07.html)|[button07](https://ajycc20.github.io/easy-css-layout/button/button07.html)|![button07.gif](https://img2.ajycc20.xyz/images/2019/09/05/va6JKl0QolUnERPW.gif)|
-|Button08|[button08](https://github.com/ajycc20/easy-css-layout/blob/master/button/button08.html)|[button08](https://ajycc20.github.io/easy-css-layout/button/button08.html)|![button08.gif](https://img2.ajycc20.xyz/images/2019/09/05/qbAKIKI2k0s5nSi9.gif)|
-|Button09|[button09](https://github.com/ajycc20/easy-css-layout/blob/master/button/button09.html)|[button09](https://ajycc20.github.io/easy-css-layout/button/button09.html)|![button09.gif](https://img2.ajycc20.xyz/images/2019/09/05/K5gndRWpL7D9dMJX.gif)|
-|Button10|[button10](https://github.com/ajycc20/easy-css-layout/blob/master/button/button10.html)|[button10](https://ajycc20.github.io/easy-css-layout/button/button10.html)|![button10.gif](https://img2.ajycc20.xyz/images/2019/09/05/okJB9XrwF2ASaEnK.gif)|
-|Button11|[button11](https://github.com/ajycc20/easy-css-layout/blob/master/button/button11.html)|[button11](https://ajycc20.github.io/easy-css-layout/button/button11.html)|![button11.gif](https://img2.ajycc20.xyz/images/2019/09/05/Y3tO6feYDuvURWjG.gif)|
-|Button12|[button12](https://github.com/ajycc20/easy-css-layout/blob/master/button/button12.html)|[button12](https://ajycc20.github.io/easy-css-layout/button/button12.html)|![button12.gif](https://img2.ajycc20.xyz/images/2019/09/13/bf16r2O62mhAeGLS.gif)|
-|Button13|[button13](https://github.com/ajycc20/easy-css-layout/blob/master/button/button13.html)|[button13](https://ajycc20.github.io/easy-css-layout/button/button13.html)|![button13.gif](https://img2.ajycc20.xyz/images/2019/09/13/WZ3F7LH580YfSqHc.gif)|
-|Button14|[button14](https://github.com/ajycc20/easy-css-layout/blob/master/button/button14.html)|[button14](https://ajycc20.github.io/easy-css-layout/button/button14.html)|![button14.gif](https://img2.ajycc20.xyz/images/2019/09/27/95jW7xsXXqT3EBkh.gif)|
+|Button01|[button01](https://github.com/ajycc20/easy-css-layout/blob/master/button/button01.html)|[button01](https://ajycc20.github.io/easy-css-layout/button/button01.html)|![button01.gif](https://i.endpot.com/image/GFPLC/button01.gif)|
+|Button02|[button02](https://github.com/ajycc20/easy-css-layout/blob/master/button/button02.html)|[button02](https://ajycc20.github.io/easy-css-layout/button/button02.html)|![button02.gif](https://i.endpot.com/image/XXVAZ/button02.gif)|
+|Button03|[button03](https://github.com/ajycc20/easy-css-layout/blob/master/button/button03.html)|[button03](https://ajycc20.github.io/easy-css-layout/button/button03.html)|![button03.gif](https://i.endpot.com/image/8B3NS/button03.gif)|
+|Button04|[button04](https://github.com/ajycc20/easy-css-layout/blob/master/button/button04.html)|[button04](https://ajycc20.github.io/easy-css-layout/button/button04.html)|![button04.gif](https://i.endpot.com/image/SSIAZ/button04.gif)|
+|Button05|[button05](https://github.com/ajycc20/easy-css-layout/blob/master/button/button05.html)|[button05](https://ajycc20.github.io/easy-css-layout/button/button05.html)|![button05.gif](https://i.endpot.com/image/CYX5P/button05.gif)|
+|Button06|[button06](https://github.com/ajycc20/easy-css-layout/blob/master/button/button06.html)|[button06](https://ajycc20.github.io/easy-css-layout/button/button06.html)|![button06.gif](https://i.endpot.com/image/FOYJ5/button06.gif)|
+|Button07|[button07](https://github.com/ajycc20/easy-css-layout/blob/master/button/button07.html)|[button07](https://ajycc20.github.io/easy-css-layout/button/button07.html)|![button07.gif](https://i.endpot.com/image/2CVNU/button07.gif)|
+|Button08|[button08](https://github.com/ajycc20/easy-css-layout/blob/master/button/button08.html)|[button08](https://ajycc20.github.io/easy-css-layout/button/button08.html)|![button08.gif](https://i.endpot.com/image/1WDAZ/button08.gif)|
+|Button09|[button09](https://github.com/ajycc20/easy-css-layout/blob/master/button/button09.html)|[button09](https://ajycc20.github.io/easy-css-layout/button/button09.html)|![button09.gif](https://i.endpot.com/image/SGHH9/button09.gif)|
+|Button10|[button10](https://github.com/ajycc20/easy-css-layout/blob/master/button/button10.html)|[button10](https://ajycc20.github.io/easy-css-layout/button/button10.html)|![button10.gif](https://i.endpot.com/image/Y1G1R/button10.gif)|
+|Button11|[button11](https://github.com/ajycc20/easy-css-layout/blob/master/button/button11.html)|[button11](https://ajycc20.github.io/easy-css-layout/button/button11.html)|![button11.gif](https://i.endpot.com/image/SF55K/button11.gif)|
+|Button12|[button12](https://github.com/ajycc20/easy-css-layout/blob/master/button/button12.html)|[button12](https://ajycc20.github.io/easy-css-layout/button/button12.html)|![button12.gif](https://i.endpot.com/image/ZLS6E/button12.gif)|
+|Button13|[button13](https://github.com/ajycc20/easy-css-layout/blob/master/button/button13.html)|[button13](https://ajycc20.github.io/easy-css-layout/button/button13.html)|![button13.gif](https://i.endpot.com/image/5UATY/button13.gif)|
+|Button14|[button14](https://github.com/ajycc20/easy-css-layout/blob/master/button/button14.html)|[button14](https://ajycc20.github.io/easy-css-layout/button/button14.html)|![button14.gif](https://i.endpot.com/image/3P2E0/button14.gif)|
 
 ----------------------
-
 ## [Pagination](https://github.com/ajycc20/easy-css-layout/tree/master/pagination)
 
 |Name|Source|Demo|Preview|
