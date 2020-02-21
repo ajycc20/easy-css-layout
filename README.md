@@ -109,6 +109,7 @@ Just for practice & backups
 |Question-Mark|[question-mark](https://github.com/ajycc20/easy-css-layout/blob/master/icon/question-mark.html)|[question-mark](https://ajycc20.github.io/easy-css-layout/icon/question-mark.html)|![question-mark.jpg](https://img2.ajycc20.xyz/images/2019/09/08/pMsl98opDVw5xB1Y.jpg)|
 |BlueTooth|[bluetooth](https://github.com/ajycc20/easy-css-layout/blob/master/icon/bluetooth.html)|[bluetooth](https://ajycc20.github.io/easy-css-layout/icon/bluetooth.html)|![bluetooth.jpg](https://img2.ajycc20.xyz/images/2019/09/14/F0bwLIuM2fAqUwWo.jpg)|
 |Cloud|[cloud](https://github.com/ajycc20/easy-css-layout/blob/master/icon/cloud.html)|[cloud](https://ajycc20.github.io/easy-css-layout/icon/cloud.html)|![cloud.jpg](https://img2.ajycc20.xyz/images/2019/09/14/G1GfSKDpHwWluSvD.jpg)|
+|Exit|[exit](https://github.com/ajycc20/easy-css-layout/blob/master/unclassified/exit.html)|[exit](https://ajycc20.github.io/easy-css-layout/unclassified/exit.html)|![exit.gif](https://i.endpot.com/image/KKCXU/exit.gif)|
 
 ----------------------
 
