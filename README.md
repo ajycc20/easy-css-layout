@@ -157,9 +157,9 @@ Just for practice & backups
 
 |Name|Source|Demo|Preview|
 |:---:|:---:|:---:|:---:|
-|Checkbox01|[checkbox01](https://github.com/ajycc20/easy-css-layout/blob/master/checkbox/checkbox01.html)|[checkbox01](https://ajycc20.github.io/easy-css-layout/checkbox/checkbox01.html)|![checkbox01.gif](https://img2.ajycc20.xyz/images/2019/09/05/rouDFePS1o3nquPy.gif)|
-|Checkbox02|[checkbox02](https://github.com/ajycc20/easy-css-layout/blob/master/checkbox/checkbox02.html)|[checkbox02](https://ajycc20.github.io/easy-css-layout/checkbox/checkbox02.html)|![checkbox02.gif](https://img2.ajycc20.xyz/images/2019/09/05/U3tU7QHgsnpMvhZf.gif)|
-|Checkbox03|[checkbox03](https://github.com/ajycc20/easy-css-layout/blob/master/checkbox/checkbox03.html)|[checkbox03](https://ajycc20.github.io/easy-css-layout/checkbox/checkbox03.html)|![checkbox03.gif](https://img2.ajycc20.xyz/images/2019/09/05/FjPFY2hpzdvRl20e.gif)|
+|Checkbox01|[checkbox01](https://github.com/ajycc20/easy-css-layout/blob/master/checkbox/checkbox01.html)|[checkbox01](https://ajycc20.github.io/easy-css-layout/checkbox/checkbox01.html)|![checkbox01.gif](https://i.endpot.com/image/VTODR/checkbox01.gif)|
+|Checkbox02|[checkbox02](https://github.com/ajycc20/easy-css-layout/blob/master/checkbox/checkbox02.html)|[checkbox02](https://ajycc20.github.io/easy-css-layout/checkbox/checkbox02.html)|![checkbox02.gif](https://i.endpot.com/image/23MOV/checkbox02.gif)|
+|Checkbox03|[checkbox03](https://github.com/ajycc20/easy-css-layout/blob/master/checkbox/checkbox03.html)|[checkbox03](https://ajycc20.github.io/easy-css-layout/checkbox/checkbox03.html)|![checkbox03.gif](https://i.endpot.com/image/GCT44/checkbox03.gif)|
 
 ----------------------
 
@@ -175,13 +175,13 @@ Just for practice & backups
 
 |Name|Source|Demo|Preview|
 |:---:|:---:|:---:|:---:|
-|Container01|[container01](https://github.com/ajycc20/easy-css-layout/blob/master/container/container01.html)|[container01](https://ajycc20.github.io/easy-css-layout/container/container01.html)|![container01.jpg](https://img2.ajycc20.xyz/images/2019/08/26/hvkvTTMZyUTKXTIT.jpg)|
-|Container02|[container02](https://github.com/ajycc20/easy-css-layout/blob/master/container/container02.html)|[container02](https://ajycc20.github.io/easy-css-layout/container/container02.html)|![container02.jpg](https://img2.ajycc20.xyz/images/2019/08/26/yb4cpCtNM2yjARn4.jpg)|
-|Container03|[container03](https://github.com/ajycc20/easy-css-layout/blob/master/container/container03.html)|[container03](https://ajycc20.github.io/easy-css-layout/container/container03.html)|![container03.jpg](https://img2.ajycc20.xyz/images/2019/08/26/2NGXRJH8JaPxLvX3.jpg)|
-|Container04|[container04](https://github.com/ajycc20/easy-css-layout/blob/master/container/container04.html)|[container04](https://ajycc20.github.io/easy-css-layout/container/container04.html)|![container04.jpg](https://img2.ajycc20.xyz/images/2019/08/26/7g6YWVIJMzYDYght.jpg)|
-|Container05|[container05](https://github.com/ajycc20/easy-css-layout/blob/master/container/container05.html)|[container05](https://ajycc20.github.io/easy-css-layout/container/container05.html)|![container05.jpg](https://img2.ajycc20.xyz/images/2019/08/26/IB8iCFXFlEyMVoeN.jpg)|
-|Container06|[container06](https://github.com/ajycc20/easy-css-layout/blob/master/container/container06.html)|[container06](https://ajycc20.github.io/easy-css-layout/container/container06.html)|![container06.jpg](https://img2.ajycc20.xyz/images/2019/08/26/PSTTQVMYF5IKjXLW.jpg)|
-|Container07|[container07](https://github.com/ajycc20/easy-css-layout/blob/master/container/container07.html)|[container07](https://ajycc20.github.io/easy-css-layout/container/container07.html)|![container07.jpg](https://img2.ajycc20.xyz/images/2019/08/26/TTO1Fpf12YTSuQYZ.jpg)|
+|Container01|[container01](https://github.com/ajycc20/easy-css-layout/blob/master/container/container01.html)|[container01](https://ajycc20.github.io/easy-css-layout/container/container01.html)|![container01.jpg](https://i.endpot.com/image/SGZQ9/container01.jpg)|
+|Container02|[container02](https://github.com/ajycc20/easy-css-layout/blob/master/container/container02.html)|[container02](https://ajycc20.github.io/easy-css-layout/container/container02.html)|![container02.jpg](https://i.endpot.com/image/JXRUF/container02.jpg)|
+|Container03|[container03](https://github.com/ajycc20/easy-css-layout/blob/master/container/container03.html)|[container03](https://ajycc20.github.io/easy-css-layout/container/container03.html)|![container03.jpg](https://i.endpot.com/image/V4QN4/container03.jpg)|
+|Container04|[container04](https://github.com/ajycc20/easy-css-layout/blob/master/container/container04.html)|[container04](https://ajycc20.github.io/easy-css-layout/container/container04.html)|![container04.jpg](https://i.endpot.com/image/EASHI/container04.jpg)|
+|Container05|[container05](https://github.com/ajycc20/easy-css-layout/blob/master/container/container05.html)|[container05](https://ajycc20.github.io/easy-css-layout/container/container05.html)|![container05.jpg](https://i.endpot.com/image/WLNGH/container05.jpg)|
+|Container06|[container06](https://github.com/ajycc20/easy-css-layout/blob/master/container/container06.html)|[container06](https://ajycc20.github.io/easy-css-layout/container/container06.html)|![container06.jpg](https://i.endpot.com/image/VL3TT/container06.jpg)|
+|Container07|[container07](https://github.com/ajycc20/easy-css-layout/blob/master/container/container07.html)|[container07](https://ajycc20.github.io/easy-css-layout/container/container07.html)|![container07.jpg](https://i.endpot.com/image/UNYIX/container07.jpg)|
 
 ----------------------
 
@@ -189,7 +189,7 @@ Just for practice & backups
 
 |Name|Source|Demo|Preview|
 |:---:|:---:|:---:|:---:|
-|Card|[card01](https://github.com/ajycc20/easy-css-layout/blob/master/card/card01.html)|[card01](https://ajycc20.github.io/easy-css-layout/card/card01.html)|![card01.gif](https://img2.ajycc20.xyz/images/2019/09/05/f8bfCDQdA2k6rQSo.gif)|
+|Card|[card01](https://github.com/ajycc20/easy-css-layout/blob/master/card/card01.html)|[card01](https://ajycc20.github.io/easy-css-layout/card/card01.html)|![card01.gif](https://i.endpot.com/image/QCWIP/card01.gif)|
 
 ----------------------
 
