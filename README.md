@@ -27,6 +27,8 @@ Foreword
 
 Just for practice & backups
 
+> About color setting of style, there're some problems here, but I don't want to modify them.
+
 > If you want to practice by this demo
 
 * First you need to view the demo in the Demo column & Writedown your code by yourself
