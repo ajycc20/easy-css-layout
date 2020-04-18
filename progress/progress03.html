@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Progress 03</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #d7e1e7;
+    }
+
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .bar {
+      width: 400px;
+    }
+
+    .bar-empty {
+      height: 25px;
+      display: block;
+      background: #fff;
+      width: 100%;
+      border-radius: 15px;
+    }
+
+    .bar-fill {
+      height: 25px;
+      display: block;
+      background: #a29bfe;
+      color: #ebfdf8;
+      width: 0;
+      text-align: center;
+      line-height: 25px;
+      border-radius: 15px;
+      transition: width .8s ease;
+      animation: animate 6s alternate forwards;
+    }
+
+    @keyframes animate {
+      from {
+        width: 0;
+      }
+
+      to {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="bar">
+      <span class="bar-empty">
+        <span class="bar-fill">
+        </span>
+      </span>
+    </div>
+  </div>
+  <script>
+    function Percentage(num, total) {
+      if (num == 0 || total == 0) {
+        return 0
+      }
+      return (Math.round(num / total * 100))
+    }
+
+    function barLen() {
+      var barFill = document.getElementsByClassName('bar-fill')[0]
+      var styLen = barFill.clientWidth || barFill.offsetWidth
+
+      var num = Percentage(styLen, 400)
+      var text = num + '%'
+
+      barFill.innerHTML = text
+
+      if (num == 100) {
+        clearInterval(running)
+      }
+    }
+    var running = setInterval(barLen, 100)
+  </script>
+</body>
+
+</html>
