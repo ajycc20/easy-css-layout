@@ -33,7 +33,7 @@ Just for practice & backups
 > If you want to practice by this demo
 
 * First you need to view the demo in the Demo column & Writedown your code by yourself
-* If you do not archieve this features, you can view the source column
+* If you can't achieve these functions, you can view the source column
 
 ----------------
 
