@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -107,13 +108,15 @@
     .input ul li iframe {
       width: 100%;
     }
-   /* CSS End*/
-   
+
+    /* CSS End*/
+
     .list ul li {
       height: 400px;
     }
   </style>
 </head>
+
 <body>
   <div class="container">
     <!-- Button -->
@@ -226,7 +229,7 @@
   </div>
   <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
   <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
       /**
       * @description 
       * @params {string} type  指属于哪种文件分类 
@@ -237,17 +240,17 @@
         // 单独处理 icon
         if (type == 'icon' || type == 'unclassified') {
           let fileArr = [] // 声明fileArr
-          
+
           // 使用数组存放所有的文件名 icon
           if (type == 'icon') {
             fileArr = ['arrow', 'bluetooth', 'change', 'change02', 'cloud', 'code', 'download',
-                        'link', 'loading', 'moon-dark', 'moon-light', 'power',
-                        'question-mark', 'scan', 'scan02', 'search', 'star-five',
-                        'star-six', 'upload', 'wifi', 'exit']
-          // unclassified
+              'link', 'loading', 'moon-dark', 'moon-light', 'power',
+              'question-mark', 'scan', 'scan02', 'search', 'star-five',
+              'star-six', 'upload', 'wifi', 'exit']
+            // unclassified
           } else if (type == 'unclassified') {
-            fileArr = ['cube', 'letterA-D', 'letterE-H', 'letterI-L', 
-                        'letterM-P', 'letterQ-T', 'letterU-X', 'letterY-Z', 'concentric-circles']
+            fileArr = ['cube', 'letterA-D', 'letterE-H', 'letterI-L',
+              'letterM-P', 'letterQ-T', 'letterU-X', 'letterY-Z', 'concentric-circles', 'taiji']
           }
           for (let i = 0; i < fileArr.length; i++) {
             let tagArea = $('.' + type + ' ul') // 标签域
@@ -256,11 +259,11 @@
 
             // 本地环境
             if (location.hostname == '127.0.0.1') {
-              
+
               iframeSrc = `./${type}/`
               hrefLink = `./${type}/`
 
-            // github page
+              // github page
             } else if (location.hostname == 'ajycc20.github.io') {
               iframeSrc = `https://ajycc20.github.io/easy-css-layout/${type}/`
               hrefLink = `https://github.com/ajycc20/easy-css-layout/blob/master/${type}/`
@@ -293,7 +296,7 @@
               iframeSrc = './'
               hrefLink = './'
 
-            // github page
+              // github page
             } else if (location.hostname == 'ajycc20.github.io') {
 
               iframeSrc = 'https://ajycc20.github.io/easy-css-layout/'
@@ -312,7 +315,7 @@
           }
         }
       }
-      
+
       // button type
       addFrames('button', 14)
       // loading type
@@ -336,8 +339,9 @@
       // list type
       addFrames('list', 3)
       // unclassified type
-      addFrames('unclassified', 9)
+      addFrames('unclassified', 10)
     })
   </script>
 </body>
+
 </html>
