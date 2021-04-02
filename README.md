@@ -1,21 +1,3 @@
-- [easy-css-layout](#easy-css-layout)
-  - [Demo](#demo)
-  - [Foreword](#foreword)
-  - [NavBar](#navbar)
-  - [SearchBox](#searchbox)
-  - [Button](#button)
-  - [Pagination](#pagination)
-  - [Icon](#icon)
-  - [Loading](#loading)
-  - [Switch](#switch)
-  - [Checkbox](#checkbox)
-  - [Input](#input)
-  - [Container](#container)
-  - [Card](#card)
-  - [Unclassified](#unclassified)
-  - [List](#list)
-  - [Progress](#progress)
-
 easy-css-layout
 ===============
 
